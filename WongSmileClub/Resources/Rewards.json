@@ -1,0 +1,92 @@
+[
+  {
+    "id": "reward-001",
+    "title": "$25 Gift Card",
+    "description": "Choose a local coffee shop or bookstore gift card.",
+    "pointsCost": 1200,
+    "finePrint": "Limit one per member per quarter.",
+    "category": "Gift Cards",
+    "active": true
+  },
+  {
+    "id": "reward-002",
+    "title": "Teeth Whitening Discount",
+    "description": "Save on in-office whitening.",
+    "pointsCost": 2000,
+    "finePrint": "Cannot be combined with other offers.",
+    "category": "Cosmetic",
+    "active": true
+  },
+  {
+    "id": "reward-003",
+    "title": "Electric Toothbrush Credit",
+    "description": "Credit toward an approved electric toothbrush.",
+    "pointsCost": 1500,
+    "finePrint": "Model selection may vary.",
+    "category": "Products",
+    "active": true
+  },
+  {
+    "id": "reward-004",
+    "title": "Fluoride Treatment",
+    "description": "Complimentary fluoride treatment at your next visit.",
+    "pointsCost": 900,
+    "finePrint": "One per visit.",
+    "category": "Preventive",
+    "active": true
+  },
+  {
+    "id": "reward-005",
+    "title": "Kids Smile Pack",
+    "description": "Fun dental kit for younger patients.",
+    "pointsCost": 700,
+    "finePrint": "While supplies last.",
+    "category": "Family",
+    "active": true
+  },
+  {
+    "id": "reward-006",
+    "title": "Custom Whitening Trays",
+    "description": "Custom trays for at-home whitening.",
+    "pointsCost": 2400,
+    "finePrint": "Requires exam and eligibility.",
+    "category": "Cosmetic",
+    "active": true
+  },
+  {
+    "id": "reward-007",
+    "title": "Invisalign Consult Credit",
+    "description": "Apply credit toward an Invisalign consult.",
+    "pointsCost": 1800,
+    "finePrint": "Consult scheduling required.",
+    "category": "Orthodontics",
+    "active": true
+  },
+  {
+    "id": "reward-008",
+    "title": "Smile Club Hoodie",
+    "description": "Limited edition WongSmileClub hoodie.",
+    "pointsCost": 1600,
+    "finePrint": "Sizing subject to availability.",
+    "category": "Merch",
+    "active": true
+  },
+  {
+    "id": "reward-009",
+    "title": "Professional Cleaning Upgrade",
+    "description": "Upgrade your next cleaning with extra polishing.",
+    "pointsCost": 1300,
+    "finePrint": "Must be scheduled in advance.",
+    "category": "Preventive",
+    "active": true
+  },
+  {
+    "id": "reward-010",
+    "title": "Smile Photo Session",
+    "description": "Professional smile photo session with our team.",
+    "pointsCost": 1100,
+    "finePrint": "Consent required for social use.",
+    "category": "Experience",
+    "active": true
+  }
+]

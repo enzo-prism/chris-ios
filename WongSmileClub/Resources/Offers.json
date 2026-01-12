@@ -1,0 +1,50 @@
+[
+  {
+    "id": "offer-001",
+    "title": "CrystalClear Whitening Pens",
+    "description": "Whiten on the go with our favorite pen kit.",
+    "recommendation": "Dr. Wong likes the low sensitivity formula for touch-ups.",
+    "partner": "CrystalClear",
+    "url": "https://example.com/whitening-pens",
+    "promoCode": "SMILE10",
+    "startDate": "2025-01-01T00:00:00Z",
+    "endDate": "2025-02-28T23:59:59Z",
+    "imageName": null
+  },
+  {
+    "id": "offer-002",
+    "title": "SonicPulse Brush Bundle",
+    "description": "Bundle deal on our top electric toothbrush pick.",
+    "recommendation": "Excellent plaque removal with gentle bristles.",
+    "partner": "SonicPulse",
+    "url": "https://example.com/sonicpulse",
+    "promoCode": "",
+    "startDate": "2025-01-10T00:00:00Z",
+    "endDate": "2025-03-15T23:59:59Z",
+    "imageName": null
+  },
+  {
+    "id": "offer-003",
+    "title": "EnamelGuard Mouthwash",
+    "description": "Mineral-rich rinse for daily enamel support.",
+    "recommendation": "Great for patients with sensitivity.",
+    "partner": "EnamelGuard",
+    "url": "https://example.com/enamelguard",
+    "promoCode": "WONGSMILE",
+    "startDate": "2024-08-01T00:00:00Z",
+    "endDate": "2024-10-01T23:59:59Z",
+    "imageName": null
+  },
+  {
+    "id": "offer-004",
+    "title": "WaterFloss Pro",
+    "description": "Upgrade your floss routine with a water flosser.",
+    "recommendation": "Perfect for braces and implants.",
+    "partner": "WaterFloss",
+    "url": "https://example.com/waterfloss",
+    "promoCode": "",
+    "startDate": "2025-02-01T00:00:00Z",
+    "endDate": "2025-04-01T23:59:59Z",
+    "imageName": null
+  }
+]

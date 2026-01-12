@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		088FBFDD85449BA6E32E4385 /* WongSmileClubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F868C51B47979CF78A9FDEF4 /* WongSmileClubUITests.swift */; };
+		0968605382CC018BCDF0E6C4 /* AppDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7907E46E9BDD2D0DA4ADFDB /* AppDataStore.swift */; };
+		1BCF9F709A919B610692C132 /* OfferCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB98A601B5CD2E7C5C239010 /* OfferCardView.swift */; };
+		2175BC906D3FD61AD68C7F00 /* RewardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D91A285A5BA896C3BE9B273 /* RewardsView.swift */; };
+		2C51287E6AC6E98B22DDCFED /* AppBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3D81E81562ED508D1F29AA /* AppBackground.swift */; };
+		2C8ED6A55BFF2CCA4FC4214D /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F583B1852443246FF1AE30 /* PrimaryButton.swift */; };
+		2D5DCF931E8D3A44AC250778 /* AppointmentRequestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C158D23AA92A57067247F01 /* AppointmentRequestViewModel.swift */; };
+		30095646A3A345D0830F28D3 /* DateFormatter+Short.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1611DB75556D1E78E6205D /* DateFormatter+Short.swift */; };
+		39BDEA8E297952155DC2F02A /* BundleDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B54E45DA3D992BBC888176 /* BundleDataService.swift */; };
+		41BF318064096B9228A97669 /* PointsBalanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D928D5CB0E024E46DA40A /* PointsBalanceTests.swift */; };
+		486444F7C844916F684E9341 /* FormspreeClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D65BF920E4C0A632943C433 /* FormspreeClientTests.swift */; };
+		486F31D5EA0B2C11BE438C26 /* GlassCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E164185BEFE676DDFE2F2553 /* GlassCard.swift */; };
+		4E736CDE6C61E688294627A9 /* ReferralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3CFBA68A8FD4EBBFDB6BFC /* ReferralView.swift */; };
+		4EEABF9A31E8A2724CCB33F3 /* PointsValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910CFDAAD0493ADD7BE427A8 /* PointsValues.swift */; };
+		54ED0918FA3A894252C702D8 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E0D56083D8329D312E2E83 /* SafariView.swift */; };
+		553C2341283D114FD30AB2D1 /* InstagramTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A9BAFEBBACDCA40BCB4B37 /* InstagramTagView.swift */; };
+		5ADF228A1663BC63701AF06B /* OfferDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91363F2C8497344D7B406E54 /* OfferDetailView.swift */; };
+		5EB7A11C69545B66F54EE55A /* ReferralViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0059DD39375DE7EB96E3AED0 /* ReferralViewModel.swift */; };
+		60866FF24A708AA6519426BC /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F75F94485703D4CA3C05F52 /* AppConfig.swift */; };
+		718C31FDA32CB56BBA414BC8 /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F36927783158F688A21622 /* BookView.swift */; };
+		7264636D99B9454D361B56AF /* RewardRedemptionRulesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E178C15FB13568E71426284B /* RewardRedemptionRulesTests.swift */; };
+		7A4985924FE3C2772886C05D /* AppointmentRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74FB06B4A92D8B774A788B6 /* AppointmentRequestView.swift */; };
+		7A4F1AA8184DFDB66E261E6A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D83D996610E099D39E78E2 /* ProfileView.swift */; };
+		7A6A1B71D19C6F4115657FDE /* EarnTaskCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7748FD7120D5B6A359133AE /* EarnTaskCard.swift */; };
+		7C24A2979058DC2378CCEBAB /* FeedbackViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6354D1BC89044069F147998 /* FeedbackViewModel.swift */; };
+		7D554622F61321B1153776FE /* PointsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6802B24F9029673E161C01E2 /* PointsStore.swift */; };
+		7E5CDED3BE4EAF0FC78DDAE1 /* Reward.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62E08822AF97907669785C0 /* Reward.swift */; };
+		7ECC5E786DBCA972E8CF7EE5 /* WongSmileClubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9205FBFB0E36D8AD186D10 /* WongSmileClubApp.swift */; };
+		825E42ACC448A3159DBE3494 /* RewardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661B2C6020C654EB171B51F7 /* RewardDetailView.swift */; };
+		86F9A7573A4152E4801A1506 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51359546BD6620188F8E5831 /* Assets.xcassets */; };
+		896C3522AA19A4A73860AC32 /* RewardRedemptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1042A32FBC9112BDEDEB07EE /* RewardRedemptionViewModel.swift */; };
+		8F809706A868EE9A878F4132 /* EmergencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26A15ABED1F7D2562E694F8 /* EmergencyView.swift */; };
+		916F3E49C908048F071BD8A2 /* PointsTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2FDCBB42A5CF21DD0E9410 /* PointsTransaction.swift */; };
+		94F02F1DAA41605DFB4B75FF /* SubmissionStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C092597B48CD22C994914D8 /* SubmissionStatus.swift */; };
+		9B38428ED91DC464EDA973A3 /* RewardCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC17D80E711A428A4778158 /* RewardCardView.swift */; };
+		9F4290042D9AC9E63F891B4A /* Offers.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B9439D07D10F25FE4DB91CB /* Offers.json */; };
+		A08ECE06768E73E5BF823753 /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A5FBCD9954BCD7AD59CD46 /* SectionHeader.swift */; };
+		B01B1BC544E4251D5309492B /* FeedbackSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE71B86E7CDEF2631A813DB /* FeedbackSuccessView.swift */; };
+		B45F99CBAF56D91F12F6C6A8 /* LegalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF2020CBD5777DF7170B71 /* LegalView.swift */; };
+		B513D4DFFA02C973859BDB4C /* MediaSubmissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64462A3734A0762588F51C3 /* MediaSubmissionView.swift */; };
+		B7AFDFFECE2B99AB61BB8B4F /* MediaSubmissionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA2103EB569479982BE57A2 /* MediaSubmissionViewModel.swift */; };
+		BD0D1E55D51C2C446E1182E9 /* EarnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A51184C6C9F9F32EA13F2A /* EarnView.swift */; };
+		C79F974F0134932FBD478139 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB798E09DD4EB1185CAF3018 /* Offer.swift */; };
+		C9CE04FD7D3E16A41A185C08 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4A91E3C3C2C506F6CB88AC /* RootTabView.swift */; };
+		CEA83B032E26241062F3F110 /* PointsPill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB6CCBA510B406CD5DB0FA2 /* PointsPill.swift */; };
+		D074B97C7F137F9318D27641 /* OffersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D9E68BE4DF6E89E6CB55A9 /* OffersView.swift */; };
+		D79DD210AFDB509490C312A0 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7630B6AA566D4E4DDD99F4C5 /* UserProfile.swift */; };
+		DC02729CC46502784D6E5E97 /* Rewards.json in Resources */ = {isa = PBXBuildFile; fileRef = AB407931C4865744C3A3559E /* Rewards.json */; };
+		DCC81FE7E896DC639A3C2BED /* RewardRedemptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203BABF274CA8D8DF7E3F24B /* RewardRedemptionView.swift */; };
+		E21A01BE4642D81F0B51587D /* FormspreeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD0C3E6CE21168BFE3506C0 /* FormspreeClient.swift */; };
+		EC555582203BBE4DCF705236 /* SubmissionSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0EFE38D10983A463187FD2 /* SubmissionSuccessView.swift */; };
+		F2971275B3F0DF24B40CC88B /* FeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3633AD8C55818F15A68B09 /* FeedbackView.swift */; };
+		FF6780E91A4D4E3A4170DC86 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD3A57531C576B578F746C3 /* HomeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		247F322E23866A927C411135 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CDDA90EA6C27C43EF9ECF75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 366D10C93FA2624969551D8B;
+			remoteInfo = WongSmileClub;
+		};
+		9D14D80F555BAEB0F87F3FD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CDDA90EA6C27C43EF9ECF75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 366D10C93FA2624969551D8B;
+			remoteInfo = WongSmileClub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0059DD39375DE7EB96E3AED0 /* ReferralViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferralViewModel.swift; sourceTree = "<group>"; };
+		050B8C7D29D795A7A86A5123 /* WongSmileClubTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = WongSmileClubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D65BF920E4C0A632943C433 /* FormspreeClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormspreeClientTests.swift; sourceTree = "<group>"; };
+		0F75F94485703D4CA3C05F52 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		1042A32FBC9112BDEDEB07EE /* RewardRedemptionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardRedemptionViewModel.swift; sourceTree = "<group>"; };
+		1B3CFBA68A8FD4EBBFDB6BFC /* ReferralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferralView.swift; sourceTree = "<group>"; };
+		1C158D23AA92A57067247F01 /* AppointmentRequestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentRequestViewModel.swift; sourceTree = "<group>"; };
+		203BABF274CA8D8DF7E3F24B /* RewardRedemptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardRedemptionView.swift; sourceTree = "<group>"; };
+		2F6CC3EBC9185E951F0A5338 /* WongSmileClub.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = WongSmileClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F36927783158F688A21622 /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
+		37D83D996610E099D39E78E2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		3D91A285A5BA896C3BE9B273 /* RewardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsView.swift; sourceTree = "<group>"; };
+		3DA2103EB569479982BE57A2 /* MediaSubmissionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaSubmissionViewModel.swift; sourceTree = "<group>"; };
+		49A51184C6C9F9F32EA13F2A /* EarnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarnView.swift; sourceTree = "<group>"; };
+		4A2FDCBB42A5CF21DD0E9410 /* PointsTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsTransaction.swift; sourceTree = "<group>"; };
+		4D1611DB75556D1E78E6205D /* DateFormatter+Short.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Short.swift"; sourceTree = "<group>"; };
+		51359546BD6620188F8E5831 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58E0D56083D8329D312E2E83 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		5B9439D07D10F25FE4DB91CB /* Offers.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Offers.json; sourceTree = "<group>"; };
+		661B2C6020C654EB171B51F7 /* RewardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardDetailView.swift; sourceTree = "<group>"; };
+		6802B24F9029673E161C01E2 /* PointsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsStore.swift; sourceTree = "<group>"; };
+		6AB6CCBA510B406CD5DB0FA2 /* PointsPill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsPill.swift; sourceTree = "<group>"; };
+		6FC17D80E711A428A4778158 /* RewardCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardCardView.swift; sourceTree = "<group>"; };
+		75A5FBCD9954BCD7AD59CD46 /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		7630B6AA566D4E4DDD99F4C5 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		76F583B1852443246FF1AE30 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		77B54E45DA3D992BBC888176 /* BundleDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleDataService.swift; sourceTree = "<group>"; };
+		7FD0C3E6CE21168BFE3506C0 /* FormspreeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormspreeClient.swift; sourceTree = "<group>"; };
+		84343D37DC5F55D70C0C46D2 /* WongSmileClubUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = WongSmileClubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DD3A57531C576B578F746C3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8F0EFE38D10983A463187FD2 /* SubmissionSuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmissionSuccessView.swift; sourceTree = "<group>"; };
+		910CFDAAD0493ADD7BE427A8 /* PointsValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsValues.swift; sourceTree = "<group>"; };
+		91363F2C8497344D7B406E54 /* OfferDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailView.swift; sourceTree = "<group>"; };
+		9C092597B48CD22C994914D8 /* SubmissionStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmissionStatus.swift; sourceTree = "<group>"; };
+		A26A15ABED1F7D2562E694F8 /* EmergencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyView.swift; sourceTree = "<group>"; };
+		A62E08822AF97907669785C0 /* Reward.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reward.swift; sourceTree = "<group>"; };
+		A9D9E68BE4DF6E89E6CB55A9 /* OffersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersView.swift; sourceTree = "<group>"; };
+		AB407931C4865744C3A3559E /* Rewards.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Rewards.json; sourceTree = "<group>"; };
+		AB98A601B5CD2E7C5C239010 /* OfferCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferCardView.swift; sourceTree = "<group>"; };
+		AD9205FBFB0E36D8AD186D10 /* WongSmileClubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WongSmileClubApp.swift; sourceTree = "<group>"; };
+		B1A9BAFEBBACDCA40BCB4B37 /* InstagramTagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramTagView.swift; sourceTree = "<group>"; };
+		B6354D1BC89044069F147998 /* FeedbackViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewModel.swift; sourceTree = "<group>"; };
+		B64462A3734A0762588F51C3 /* MediaSubmissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaSubmissionView.swift; sourceTree = "<group>"; };
+		B7907E46E9BDD2D0DA4ADFDB /* AppDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataStore.swift; sourceTree = "<group>"; };
+		BCE71B86E7CDEF2631A813DB /* FeedbackSuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackSuccessView.swift; sourceTree = "<group>"; };
+		BF5D928D5CB0E024E46DA40A /* PointsBalanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsBalanceTests.swift; sourceTree = "<group>"; };
+		C74FB06B4A92D8B774A788B6 /* AppointmentRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentRequestView.swift; sourceTree = "<group>"; };
+		CA3D81E81562ED508D1F29AA /* AppBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBackground.swift; sourceTree = "<group>"; };
+		CB798E09DD4EB1185CAF3018 /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
+		CF4A91E3C3C2C506F6CB88AC /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		E164185BEFE676DDFE2F2553 /* GlassCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassCard.swift; sourceTree = "<group>"; };
+		E178C15FB13568E71426284B /* RewardRedemptionRulesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardRedemptionRulesTests.swift; sourceTree = "<group>"; };
+		E4B8787430F795B68185CCCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F7748FD7120D5B6A359133AE /* EarnTaskCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarnTaskCard.swift; sourceTree = "<group>"; };
+		F868C51B47979CF78A9FDEF4 /* WongSmileClubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WongSmileClubUITests.swift; sourceTree = "<group>"; };
+		FA3633AD8C55818F15A68B09 /* FeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackView.swift; sourceTree = "<group>"; };
+		FADF2020CBD5777DF7170B71 /* LegalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2162F0A89B4B6EDFF08F382C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1C158D23AA92A57067247F01 /* AppointmentRequestViewModel.swift */,
+				B6354D1BC89044069F147998 /* FeedbackViewModel.swift */,
+				3DA2103EB569479982BE57A2 /* MediaSubmissionViewModel.swift */,
+				0059DD39375DE7EB96E3AED0 /* ReferralViewModel.swift */,
+				1042A32FBC9112BDEDEB07EE /* RewardRedemptionViewModel.swift */,
+				9C092597B48CD22C994914D8 /* SubmissionStatus.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		424F6FCAB4FDD7F0A5A822F1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4D1611DB75556D1E78E6205D /* DateFormatter+Short.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5C7012F2974997C2774CFF0F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E4B8787430F795B68185CCCF /* Info.plist */,
+				5B9439D07D10F25FE4DB91CB /* Offers.json */,
+				AB407931C4865744C3A3559E /* Rewards.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		63DBD49428FF78F8A1E6CC78 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C74FB06B4A92D8B774A788B6 /* AppointmentRequestView.swift */,
+				34F36927783158F688A21622 /* BookView.swift */,
+				F7748FD7120D5B6A359133AE /* EarnTaskCard.swift */,
+				49A51184C6C9F9F32EA13F2A /* EarnView.swift */,
+				A26A15ABED1F7D2562E694F8 /* EmergencyView.swift */,
+				BCE71B86E7CDEF2631A813DB /* FeedbackSuccessView.swift */,
+				FA3633AD8C55818F15A68B09 /* FeedbackView.swift */,
+				8DD3A57531C576B578F746C3 /* HomeView.swift */,
+				B1A9BAFEBBACDCA40BCB4B37 /* InstagramTagView.swift */,
+				FADF2020CBD5777DF7170B71 /* LegalView.swift */,
+				B64462A3734A0762588F51C3 /* MediaSubmissionView.swift */,
+				AB98A601B5CD2E7C5C239010 /* OfferCardView.swift */,
+				91363F2C8497344D7B406E54 /* OfferDetailView.swift */,
+				A9D9E68BE4DF6E89E6CB55A9 /* OffersView.swift */,
+				37D83D996610E099D39E78E2 /* ProfileView.swift */,
+				1B3CFBA68A8FD4EBBFDB6BFC /* ReferralView.swift */,
+				6FC17D80E711A428A4778158 /* RewardCardView.swift */,
+				661B2C6020C654EB171B51F7 /* RewardDetailView.swift */,
+				203BABF274CA8D8DF7E3F24B /* RewardRedemptionView.swift */,
+				3D91A285A5BA896C3BE9B273 /* RewardsView.swift */,
+				58E0D56083D8329D312E2E83 /* SafariView.swift */,
+				8F0EFE38D10983A463187FD2 /* SubmissionSuccessView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6FCCE90559F8D286F668A067 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CA3D81E81562ED508D1F29AA /* AppBackground.swift */,
+				E164185BEFE676DDFE2F2553 /* GlassCard.swift */,
+				6AB6CCBA510B406CD5DB0FA2 /* PointsPill.swift */,
+				76F583B1852443246FF1AE30 /* PrimaryButton.swift */,
+				75A5FBCD9954BCD7AD59CD46 /* SectionHeader.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		75874313B61E940CD2422BE0 /* WongSmileClubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F868C51B47979CF78A9FDEF4 /* WongSmileClubUITests.swift */,
+			);
+			path = WongSmileClubUITests;
+			sourceTree = "<group>";
+		};
+		821F29FE99EE02B720B846DF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CB798E09DD4EB1185CAF3018 /* Offer.swift */,
+				4A2FDCBB42A5CF21DD0E9410 /* PointsTransaction.swift */,
+				910CFDAAD0493ADD7BE427A8 /* PointsValues.swift */,
+				A62E08822AF97907669785C0 /* Reward.swift */,
+				7630B6AA566D4E4DDD99F4C5 /* UserProfile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8B2EB7CC548E29787DFE3FE6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B7907E46E9BDD2D0DA4ADFDB /* AppDataStore.swift */,
+				CF4A91E3C3C2C506F6CB88AC /* RootTabView.swift */,
+				AD9205FBFB0E36D8AD186D10 /* WongSmileClubApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A3BD9CFBCC7B141B83D40ED3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0F75F94485703D4CA3C05F52 /* AppConfig.swift */,
+				77B54E45DA3D992BBC888176 /* BundleDataService.swift */,
+				7FD0C3E6CE21168BFE3506C0 /* FormspreeClient.swift */,
+				6802B24F9029673E161C01E2 /* PointsStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B33BD3750EE2938130E588EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F6CC3EBC9185E951F0A5338 /* WongSmileClub.app */,
+				050B8C7D29D795A7A86A5123 /* WongSmileClubTests.xctest */,
+				84343D37DC5F55D70C0C46D2 /* WongSmileClubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBB2332337D533CEBCD214FC /* WongSmileClub */ = {
+			isa = PBXGroup;
+			children = (
+				51359546BD6620188F8E5831 /* Assets.xcassets */,
+				8B2EB7CC548E29787DFE3FE6 /* App */,
+				6FCCE90559F8D286F668A067 /* Components */,
+				424F6FCAB4FDD7F0A5A822F1 /* Extensions */,
+				821F29FE99EE02B720B846DF /* Models */,
+				5C7012F2974997C2774CFF0F /* Resources */,
+				A3BD9CFBCC7B141B83D40ED3 /* Services */,
+				2162F0A89B4B6EDFF08F382C /* ViewModels */,
+				63DBD49428FF78F8A1E6CC78 /* Views */,
+			);
+			path = WongSmileClub;
+			sourceTree = "<group>";
+		};
+		C3A27C1624979E55F4530479 = {
+			isa = PBXGroup;
+			children = (
+				BBB2332337D533CEBCD214FC /* WongSmileClub */,
+				E8529B4CFCF58F55576CF6FE /* WongSmileClubTests */,
+				75874313B61E940CD2422BE0 /* WongSmileClubUITests */,
+				B33BD3750EE2938130E588EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8529B4CFCF58F55576CF6FE /* WongSmileClubTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D65BF920E4C0A632943C433 /* FormspreeClientTests.swift */,
+				BF5D928D5CB0E024E46DA40A /* PointsBalanceTests.swift */,
+				E178C15FB13568E71426284B /* RewardRedemptionRulesTests.swift */,
+			);
+			path = WongSmileClubTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		366D10C93FA2624969551D8B /* WongSmileClub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7000AC9EF7C33EA179E30466 /* Build configuration list for PBXNativeTarget "WongSmileClub" */;
+			buildPhases = (
+				D0F2550986FE7F9D8C264A25 /* Sources */,
+				0EC1FC70F6606496C5457AF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WongSmileClub;
+			packageProductDependencies = (
+			);
+			productName = WongSmileClub;
+			productReference = 2F6CC3EBC9185E951F0A5338 /* WongSmileClub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6596FED0ED727C09EAF3A087 /* WongSmileClubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAC4B8E23C3CE0005891A5EC /* Build configuration list for PBXNativeTarget "WongSmileClubUITests" */;
+			buildPhases = (
+				E938E428311F9B75418CB9BC /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23E449B39C86E48D92511FD7 /* PBXTargetDependency */,
+			);
+			name = WongSmileClubUITests;
+			packageProductDependencies = (
+			);
+			productName = WongSmileClubUITests;
+			productReference = 84343D37DC5F55D70C0C46D2 /* WongSmileClubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C74C9853C8A2FAAC6F3D2A9A /* WongSmileClubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10115E7BEF365B2FAEFB25CF /* Build configuration list for PBXNativeTarget "WongSmileClubTests" */;
+			buildPhases = (
+				788C487BDFC8B687637D0D2C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35071714EBB0E8D16D007115 /* PBXTargetDependency */,
+			);
+			name = WongSmileClubTests;
+			packageProductDependencies = (
+			);
+			productName = WongSmileClubTests;
+			productReference = 050B8C7D29D795A7A86A5123 /* WongSmileClubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CDDA90EA6C27C43EF9ECF75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					366D10C93FA2624969551D8B = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					6596FED0ED727C09EAF3A087 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 366D10C93FA2624969551D8B;
+					};
+					C74C9853C8A2FAAC6F3D2A9A = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ED1E4E0C819B3A62EB2CBD08 /* Build configuration list for PBXProject "WongSmileClub" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = C3A27C1624979E55F4530479;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				366D10C93FA2624969551D8B /* WongSmileClub */,
+				C74C9853C8A2FAAC6F3D2A9A /* WongSmileClubTests */,
+				6596FED0ED727C09EAF3A087 /* WongSmileClubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EC1FC70F6606496C5457AF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F9A7573A4152E4801A1506 /* Assets.xcassets in Resources */,
+				9F4290042D9AC9E63F891B4A /* Offers.json in Resources */,
+				DC02729CC46502784D6E5E97 /* Rewards.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		788C487BDFC8B687637D0D2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				486444F7C844916F684E9341 /* FormspreeClientTests.swift in Sources */,
+				41BF318064096B9228A97669 /* PointsBalanceTests.swift in Sources */,
+				7264636D99B9454D361B56AF /* RewardRedemptionRulesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F2550986FE7F9D8C264A25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C51287E6AC6E98B22DDCFED /* AppBackground.swift in Sources */,
+				60866FF24A708AA6519426BC /* AppConfig.swift in Sources */,
+				0968605382CC018BCDF0E6C4 /* AppDataStore.swift in Sources */,
+				7A4985924FE3C2772886C05D /* AppointmentRequestView.swift in Sources */,
+				2D5DCF931E8D3A44AC250778 /* AppointmentRequestViewModel.swift in Sources */,
+				718C31FDA32CB56BBA414BC8 /* BookView.swift in Sources */,
+				39BDEA8E297952155DC2F02A /* BundleDataService.swift in Sources */,
+				30095646A3A345D0830F28D3 /* DateFormatter+Short.swift in Sources */,
+				7A6A1B71D19C6F4115657FDE /* EarnTaskCard.swift in Sources */,
+				BD0D1E55D51C2C446E1182E9 /* EarnView.swift in Sources */,
+				8F809706A868EE9A878F4132 /* EmergencyView.swift in Sources */,
+				B01B1BC544E4251D5309492B /* FeedbackSuccessView.swift in Sources */,
+				F2971275B3F0DF24B40CC88B /* FeedbackView.swift in Sources */,
+				7C24A2979058DC2378CCEBAB /* FeedbackViewModel.swift in Sources */,
+				E21A01BE4642D81F0B51587D /* FormspreeClient.swift in Sources */,
+				486F31D5EA0B2C11BE438C26 /* GlassCard.swift in Sources */,
+				FF6780E91A4D4E3A4170DC86 /* HomeView.swift in Sources */,
+				553C2341283D114FD30AB2D1 /* InstagramTagView.swift in Sources */,
+				B45F99CBAF56D91F12F6C6A8 /* LegalView.swift in Sources */,
+				B513D4DFFA02C973859BDB4C /* MediaSubmissionView.swift in Sources */,
+				B7AFDFFECE2B99AB61BB8B4F /* MediaSubmissionViewModel.swift in Sources */,
+				C79F974F0134932FBD478139 /* Offer.swift in Sources */,
+				1BCF9F709A919B610692C132 /* OfferCardView.swift in Sources */,
+				5ADF228A1663BC63701AF06B /* OfferDetailView.swift in Sources */,
+				D074B97C7F137F9318D27641 /* OffersView.swift in Sources */,
+				CEA83B032E26241062F3F110 /* PointsPill.swift in Sources */,
+				7D554622F61321B1153776FE /* PointsStore.swift in Sources */,
+				916F3E49C908048F071BD8A2 /* PointsTransaction.swift in Sources */,
+				4EEABF9A31E8A2724CCB33F3 /* PointsValues.swift in Sources */,
+				2C8ED6A55BFF2CCA4FC4214D /* PrimaryButton.swift in Sources */,
+				7A4F1AA8184DFDB66E261E6A /* ProfileView.swift in Sources */,
+				4E736CDE6C61E688294627A9 /* ReferralView.swift in Sources */,
+				5EB7A11C69545B66F54EE55A /* ReferralViewModel.swift in Sources */,
+				7E5CDED3BE4EAF0FC78DDAE1 /* Reward.swift in Sources */,
+				9B38428ED91DC464EDA973A3 /* RewardCardView.swift in Sources */,
+				825E42ACC448A3159DBE3494 /* RewardDetailView.swift in Sources */,
+				DCC81FE7E896DC639A3C2BED /* RewardRedemptionView.swift in Sources */,
+				896C3522AA19A4A73860AC32 /* RewardRedemptionViewModel.swift in Sources */,
+				2175BC906D3FD61AD68C7F00 /* RewardsView.swift in Sources */,
+				C9CE04FD7D3E16A41A185C08 /* RootTabView.swift in Sources */,
+				54ED0918FA3A894252C702D8 /* SafariView.swift in Sources */,
+				A08ECE06768E73E5BF823753 /* SectionHeader.swift in Sources */,
+				94F02F1DAA41605DFB4B75FF /* SubmissionStatus.swift in Sources */,
+				EC555582203BBE4DCF705236 /* SubmissionSuccessView.swift in Sources */,
+				D79DD210AFDB509490C312A0 /* UserProfile.swift in Sources */,
+				7ECC5E786DBCA972E8CF7EE5 /* WongSmileClubApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E938E428311F9B75418CB9BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088FBFDD85449BA6E32E4385 /* WongSmileClubUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23E449B39C86E48D92511FD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 366D10C93FA2624969551D8B /* WongSmileClub */;
+			targetProxy = 247F322E23866A927C411135 /* PBXContainerItemProxy */;
+		};
+		35071714EBB0E8D16D007115 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 366D10C93FA2624969551D8B /* WongSmileClub */;
+			targetProxy = 9D14D80F555BAEB0F87F3FD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		43F6273C37C87F14A086E86B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.WongSmileClubUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WongSmileClub;
+			};
+			name = Debug;
+		};
+		46F027A67EC2867209128318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.WongSmileClubTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WongSmileClub.app/WongSmileClub";
+			};
+			name = Release;
+		};
+		5FF3771C28DA593E8ABF3FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A691A61EB2FB8E7DE74C7F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A71C5CD117AE6897D5EA083A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.WongSmileClubTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WongSmileClub.app/WongSmileClub";
+			};
+			name = Debug;
+		};
+		B2B59BD2C475C35B0153DD63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.WongSmileClubUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WongSmileClub;
+			};
+			name = Release;
+		};
+		C6EFBD01E84FD91681807E29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = WongSmileClub/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.wongsmileclub;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E43CD21EDC13A922613CD272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = WongSmileClub/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.wongsmileclub;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10115E7BEF365B2FAEFB25CF /* Build configuration list for PBXNativeTarget "WongSmileClubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A71C5CD117AE6897D5EA083A /* Debug */,
+				46F027A67EC2867209128318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7000AC9EF7C33EA179E30466 /* Build configuration list for PBXNativeTarget "WongSmileClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6EFBD01E84FD91681807E29 /* Debug */,
+				E43CD21EDC13A922613CD272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DAC4B8E23C3CE0005891A5EC /* Build configuration list for PBXNativeTarget "WongSmileClubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F6273C37C87F14A086E86B /* Debug */,
+				B2B59BD2C475C35B0153DD63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ED1E4E0C819B3A62EB2CBD08 /* Build configuration list for PBXProject "WongSmileClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF3771C28DA593E8ABF3FA2 /* Debug */,
+				A691A61EB2FB8E7DE74C7F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CDDA90EA6C27C43EF9ECF75 /* Project object */;
+}
