@@ -12,9 +12,7 @@ struct SubmissionSuccessView: View {
             AppBackground()
 
             VStack(spacing: 20) {
-                Image(systemName: systemImage)
-                    .font(.system(size: 48, weight: .bold))
-                    .foregroundStyle(Color.accentColor)
+                AppIcon(name: systemImage, size: AppIconSize.hero, weight: .bold, color: .accentColor)
 
                 Text(title)
                     .font(.system(.title2, design: .rounded).weight(.bold))
@@ -24,7 +22,7 @@ struct SubmissionSuccessView: View {
                     .foregroundStyle(.secondary)
                     .multilineTextAlignment(.center)
 
-                PrimaryButton(title: "Done", systemImage: "checkmark") {
+                PrimaryButton(title: "Done", systemImage: AppSymbol.confirm) {
                     dismiss()
                 }
             }

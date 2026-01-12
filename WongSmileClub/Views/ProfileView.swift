@@ -26,7 +26,7 @@ struct ProfileView: View {
                 VStack(spacing: 16) {
                     GlassCard {
                         VStack(alignment: .leading, spacing: 12) {
-                            SectionHeader(title: "Your Profile")
+                            SectionHeader(title: "Your Profile", systemImage: AppSymbol.profile)
 
                             TextField("Name", text: $name)
                                 .textContentType(.name)
@@ -47,7 +47,7 @@ struct ProfileView: View {
                             Toggle("Consent to repost submitted media", isOn: $consentRepost)
                             Toggle("Consent to marketing updates", isOn: $consentMarketing)
 
-                            PrimaryButton(title: "Save Profile", systemImage: "checkmark") {
+                            PrimaryButton(title: "Save Profile", systemImage: AppSymbol.confirm) {
                                 saveProfile()
                             }
                         }
@@ -55,7 +55,7 @@ struct ProfileView: View {
 
                     GlassCard {
                         VStack(alignment: .leading, spacing: 12) {
-                            SectionHeader(title: "Points History")
+                            SectionHeader(title: "Points History", systemImage: AppSymbol.history)
                             Text("Current balance: \(balance)")
                                 .font(.subheadline)
                                 .foregroundStyle(.secondary)
@@ -81,7 +81,7 @@ struct ProfileView: View {
 
                     GlassCard {
                         VStack(alignment: .leading, spacing: 12) {
-                            SectionHeader(title: "Practice Info")
+                            SectionHeader(title: "Practice Info", systemImage: AppSymbol.practice)
                             Text(config.practiceName)
                                 .font(.headline)
                             Text(config.address)
@@ -105,7 +105,7 @@ struct ProfileView: View {
 
                     GlassCard {
                         VStack(alignment: .leading, spacing: 12) {
-                            SectionHeader(title: "Legal")
+                            SectionHeader(title: "Legal", systemImage: AppSymbol.legal)
                             NavigationLink("Terms of Service") {
                                 LegalView(title: "Terms", bodyText: "TODO: Add terms of service.")
                             }

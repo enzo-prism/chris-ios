@@ -5,21 +5,26 @@ struct OfferCardView: View {
 
     var body: some View {
         GlassCard {
-            VStack(alignment: .leading, spacing: 10) {
-                HStack {
-                    Text(offer.title)
-                        .font(.system(.headline, design: .rounded))
+            VStack(alignment: .leading, spacing: 12) {
+                HStack(alignment: .top, spacing: 12) {
+                    IconBadge(systemImage: AppSymbol.offers)
+
+                    VStack(alignment: .leading, spacing: 6) {
+                        Text(offer.title)
+                            .font(.system(.headline, design: .rounded))
+                        Text(offer.partner)
+                            .font(.subheadline)
+                            .foregroundStyle(.secondary)
+                    }
+
                     Spacer()
+
                     if offer.isExpired {
                         Text("Expired")
                             .font(.caption)
                             .foregroundStyle(.secondary)
                     }
                 }
-
-                Text(offer.partner)
-                    .font(.subheadline)
-                    .foregroundStyle(.secondary)
 
                 Text(offer.description)
                     .font(.footnote)

@@ -7,35 +7,35 @@ struct RootTabView: View {
                 HomeView()
             }
             .tabItem {
-                Label("Home", systemImage: "house.fill")
+                Label("Home", systemImage: AppSymbol.home)
             }
 
             NavigationStack {
                 BookView()
             }
             .tabItem {
-                Label("Book", systemImage: "calendar.badge.plus")
+                Label("Book", systemImage: AppSymbol.book)
             }
 
             NavigationStack {
                 EarnView()
             }
             .tabItem {
-                Label("Earn", systemImage: "sparkles")
+                Label("Earn", systemImage: AppSymbol.earn)
             }
 
             NavigationStack {
                 RewardsView()
             }
             .tabItem {
-                Label("Rewards", systemImage: "gift.fill")
+                Label("Rewards", systemImage: AppSymbol.rewards)
             }
 
             NavigationStack {
                 OffersView()
             }
             .tabItem {
-                Label("Offers", systemImage: "tag.fill")
+                Label("Offers", systemImage: AppSymbol.offers)
             }
         }
     }

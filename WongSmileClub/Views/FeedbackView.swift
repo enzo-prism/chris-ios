@@ -22,7 +22,7 @@ struct FeedbackView: View {
                 VStack(spacing: 16) {
                     GlassCard {
                         VStack(alignment: .leading, spacing: 12) {
-                            SectionHeader(title: "Private Feedback")
+                            SectionHeader(title: "Private Feedback", systemImage: AppSymbol.feedback)
 
                             Picker("Rating", selection: $viewModel.rating) {
                                 ForEach(1...5, id: \.self) { value in
@@ -43,7 +43,7 @@ struct FeedbackView: View {
                         }
                     }
 
-                    PrimaryButton(title: viewModel.status.isSubmitting ? "Submitting..." : "Submit Feedback", systemImage: "paperplane.fill") {
+                    PrimaryButton(title: viewModel.status.isSubmitting ? "Submitting..." : "Submit Feedback", systemImage: AppSymbol.submit) {
                         Task {
                             await viewModel.submit()
                         }

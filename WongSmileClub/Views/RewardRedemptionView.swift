@@ -51,7 +51,7 @@ struct RewardRedemptionView: View {
                         }
                     }
 
-                    PrimaryButton(title: viewModel.status.isSubmitting ? "Submitting..." : "Confirm Redemption", systemImage: "checkmark") {
+                    PrimaryButton(title: viewModel.status.isSubmitting ? "Submitting..." : "Confirm Redemption", systemImage: AppSymbol.confirm) {
                         Task {
                             await viewModel.submit(reward: reward, currentBalance: currentBalance)
                         }
@@ -79,7 +79,7 @@ struct RewardRedemptionView: View {
             SubmissionSuccessView(
                 title: "Redemption Sent",
                 message: successMessage,
-                systemImage: "checkmark.seal.fill"
+                systemImage: AppSymbol.success
             )
         }
         .alert("Submission Failed", isPresented: Binding(get: {

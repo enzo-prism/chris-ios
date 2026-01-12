@@ -25,7 +25,10 @@ struct MediaSubmissionView: View {
                 VStack(spacing: 16) {
                     GlassCard {
                         VStack(alignment: .leading, spacing: 12) {
-                            SectionHeader(title: "Submit \(viewModel.mediaType.title)")
+                            SectionHeader(
+                                title: "Submit \(viewModel.mediaType.title)",
+                                systemImage: viewModel.mediaType == .photo ? AppSymbol.photo : AppSymbol.video
+                            )
 
                             TextField("Your name", text: $viewModel.name)
                                 .textContentType(.name)
@@ -41,8 +44,12 @@ struct MediaSubmissionView: View {
                                 selection: $selectedItem,
                                 matching: viewModel.mediaType == .photo ? .images : .videos,
                                 photoLibrary: .shared()) {
-                                    Label("Select \(viewModel.mediaType == .photo ? "Photo" : "Video")", systemImage: "photo.on.rectangle")
-                                        .font(.system(.headline, design: .rounded))
+                                    AppLabel(
+                                        title: "Select \(viewModel.mediaType == .photo ? "Photo" : "Video")",
+                                        systemImage: AppSymbol.selectMedia,
+                                        iconSize: AppIconSize.inline,
+                                        textFont: .system(.headline, design: .rounded)
+                                    )
                                 }
                                 .buttonStyle(.borderedProminent)
 
@@ -63,7 +70,7 @@ struct MediaSubmissionView: View {
                         }
                     }
 
-                    PrimaryButton(title: viewModel.status.isSubmitting ? "Submitting..." : "Submit", systemImage: "paperplane.fill") {
+                    PrimaryButton(title: viewModel.status.isSubmitting ? "Submitting..." : "Submit", systemImage: AppSymbol.submit) {
                         guard let selectedData else { return }
                         Task {
                             await viewModel.submit(fileData: selectedData, fileName: selectedFileName, mimeType: selectedMimeType)
@@ -109,7 +116,7 @@ struct MediaSubmissionView: View {
             SubmissionSuccessView(
                 title: "Submitted",
                 message: successMessage,
-                systemImage: "checkmark.seal.fill"
+                systemImage: AppSymbol.success
             )
         }
         .alert("Submission Failed", isPresented: Binding(get: {

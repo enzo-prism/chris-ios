@@ -19,7 +19,7 @@ struct ReferralView: View {
                 VStack(spacing: 16) {
                     GlassCard {
                         VStack(alignment: .leading, spacing: 12) {
-                            SectionHeader(title: "Refer a Friend")
+                            SectionHeader(title: "Refer a Friend", systemImage: AppSymbol.referral)
 
                             TextField("Your name", text: $viewModel.yourName)
                                 .textContentType(.name)
@@ -66,7 +66,7 @@ struct ReferralView: View {
                         }
                     }
 
-                    PrimaryButton(title: viewModel.status.isSubmitting ? "Submitting..." : "Submit Referral", systemImage: "person.badge.plus") {
+                    PrimaryButton(title: viewModel.status.isSubmitting ? "Submitting..." : "Submit Referral", systemImage: AppSymbol.referral) {
                         Task {
                             await viewModel.submit()
                         }
@@ -94,7 +94,7 @@ struct ReferralView: View {
             SubmissionSuccessView(
                 title: "Referral Submitted",
                 message: successMessage,
-                systemImage: "checkmark.seal.fill"
+                systemImage: AppSymbol.success
             )
         }
         .alert("Submission Failed", isPresented: Binding(get: {

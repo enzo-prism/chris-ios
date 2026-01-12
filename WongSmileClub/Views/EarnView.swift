@@ -18,7 +18,7 @@ struct EarnView: View {
 
             ScrollView {
                 VStack(spacing: 16) {
-                    SectionHeader(title: "Earn Smile Points")
+                    SectionHeader(title: "Earn Smile Points", systemImage: AppSymbol.earn)
 
                     NavigationLink {
                         ReferralView(pointsStore: pointsStore, config: config, formspree: formspree)
@@ -26,7 +26,7 @@ struct EarnView: View {
                         EarnTaskCard(
                             title: "Refer a Friend",
                             description: "Invite someone you care about to WongSmileClub.",
-                            systemImage: "person.3.fill",
+                            systemImage: AppSymbol.referral,
                             points: PointsValues.referral,
                             footnote: "Subject to verification at redemption."
                         )
@@ -39,7 +39,7 @@ struct EarnView: View {
                         EarnTaskCard(
                             title: "Submit Smile Photo",
                             description: "Share your smile for a bonus.",
-                            systemImage: "camera.fill",
+                            systemImage: AppSymbol.photo,
                             points: PointsValues.photo,
                             footnote: "Subject to verification at redemption."
                         )
@@ -52,7 +52,7 @@ struct EarnView: View {
                         EarnTaskCard(
                             title: "Submit Smile Video",
                             description: "Short video about your experience.",
-                            systemImage: "video.fill",
+                            systemImage: AppSymbol.video,
                             points: PointsValues.video,
                             footnote: "Subject to verification at redemption."
                         )
@@ -65,7 +65,7 @@ struct EarnView: View {
                         EarnTaskCard(
                             title: "Instagram Tag",
                             description: "Tag \(config.instagramHandle) in your post.",
-                            systemImage: "camera.circle.fill",
+                            systemImage: AppSymbol.instagram,
                             points: PointsValues.instagram,
                             footnote: "Subject to verification at redemption."
                         )
@@ -78,7 +78,7 @@ struct EarnView: View {
                         EarnTaskCard(
                             title: "Private Feedback",
                             description: "Tell us how we did in a quick survey.",
-                            systemImage: "bubble.left.and.text.bubble.fill",
+                            systemImage: AppSymbol.feedback,
                             points: PointsValues.feedback,
                             footnote: "We appreciate the private feedback."
                         )
@@ -108,8 +108,12 @@ struct EarnView: View {
                                 safariURL = config.googleReviewURL
                                 showSafari = safariURL != nil
                             } label: {
-                                Label("Open Google Reviews", systemImage: "globe")
-                                    .font(.system(.headline, design: .rounded))
+                                AppLabel(
+                                    title: "Open Google Reviews",
+                                    systemImage: AppSymbol.review,
+                                    iconSize: AppIconSize.inline,
+                                    textFont: .system(.headline, design: .rounded)
+                                )
                             }
                             .buttonStyle(.borderedProminent)
 
@@ -117,7 +121,12 @@ struct EarnView: View {
                                 Button {
                                     pointsStore.addTransaction(PointsTransaction(type: .earn, source: .publicReviewGoogle, points: PointsValues.publicReview, note: "Public review (NOT RECOMMENDED)"))
                                 } label: {
-                                    Label("Claim Points (NOT RECOMMENDED)", systemImage: "exclamationmark.triangle.fill")
+                                    AppLabel(
+                                        title: "Claim Points (NOT RECOMMENDED)",
+                                        systemImage: AppSymbol.warning,
+                                        iconSize: AppIconSize.inline,
+                                        textFont: .system(.subheadline, design: .rounded).weight(.semibold)
+                                    )
                                 }
                                 .buttonStyle(.bordered)
                             }
@@ -147,8 +156,12 @@ struct EarnView: View {
                                 safariURL = config.yelpURL
                                 showSafari = safariURL != nil
                             } label: {
-                                Label("Open Yelp", systemImage: "globe")
-                                    .font(.system(.headline, design: .rounded))
+                                AppLabel(
+                                    title: "Open Yelp",
+                                    systemImage: AppSymbol.review,
+                                    iconSize: AppIconSize.inline,
+                                    textFont: .system(.headline, design: .rounded)
+                                )
                             }
                             .buttonStyle(.borderedProminent)
 
@@ -156,7 +169,12 @@ struct EarnView: View {
                                 Button {
                                     pointsStore.addTransaction(PointsTransaction(type: .earn, source: .publicReviewYelp, points: PointsValues.publicReview, note: "Public review (NOT RECOMMENDED)"))
                                 } label: {
-                                    Label("Claim Points (NOT RECOMMENDED)", systemImage: "exclamationmark.triangle.fill")
+                                    AppLabel(
+                                        title: "Claim Points (NOT RECOMMENDED)",
+                                        systemImage: AppSymbol.warning,
+                                        iconSize: AppIconSize.inline,
+                                        textFont: .system(.subheadline, design: .rounded).weight(.semibold)
+                                    )
                                 }
                                 .buttonStyle(.bordered)
                             }

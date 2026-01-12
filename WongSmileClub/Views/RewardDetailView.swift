@@ -35,7 +35,7 @@ struct RewardDetailView: View {
                 NavigationLink {
                     RewardRedemptionView(reward: reward, currentBalance: balance, config: config, formspree: formspree, pointsStore: pointsStore)
                 } label: {
-                    PrimaryButtonLabel(title: "Redeem Reward", systemImage: "gift.fill")
+                    PrimaryButtonLabel(title: "Redeem Reward", systemImage: AppSymbol.rewards)
                 }
                 .buttonStyle(PrimaryButtonStyle())
                 .disabled(!RewardRedemptionRules.canRedeem(reward: reward, balance: balance))

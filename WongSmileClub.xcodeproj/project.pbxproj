@@ -41,6 +41,7 @@
 		8F809706A868EE9A878F4132 /* EmergencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26A15ABED1F7D2562E694F8 /* EmergencyView.swift */; };
 		916F3E49C908048F071BD8A2 /* PointsTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2FDCBB42A5CF21DD0E9410 /* PointsTransaction.swift */; };
 		94F02F1DAA41605DFB4B75FF /* SubmissionStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C092597B48CD22C994914D8 /* SubmissionStatus.swift */; };
+		95EB5DEB3467EB446184B46D /* AppSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAD1C40B69AED4D8D21A6B1 /* AppSymbols.swift */; };
 		9B38428ED91DC464EDA973A3 /* RewardCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC17D80E711A428A4778158 /* RewardCardView.swift */; };
 		9F4290042D9AC9E63F891B4A /* Offers.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B9439D07D10F25FE4DB91CB /* Offers.json */; };
 		A08ECE06768E73E5BF823753 /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A5FBCD9954BCD7AD59CD46 /* SectionHeader.swift */; };
@@ -130,6 +131,7 @@
 		CA3D81E81562ED508D1F29AA /* AppBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBackground.swift; sourceTree = "<group>"; };
 		CB798E09DD4EB1185CAF3018 /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
 		CF4A91E3C3C2C506F6CB88AC /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		DEAD1C40B69AED4D8D21A6B1 /* AppSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSymbols.swift; sourceTree = "<group>"; };
 		E164185BEFE676DDFE2F2553 /* GlassCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassCard.swift; sourceTree = "<group>"; };
 		E178C15FB13568E71426284B /* RewardRedemptionRulesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardRedemptionRulesTests.swift; sourceTree = "<group>"; };
 		E4B8787430F795B68185CCCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -204,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				CA3D81E81562ED508D1F29AA /* AppBackground.swift */,
+				DEAD1C40B69AED4D8D21A6B1 /* AppSymbols.swift */,
 				E164185BEFE676DDFE2F2553 /* GlassCard.swift */,
 				6AB6CCBA510B406CD5DB0FA2 /* PointsPill.swift */,
 				76F583B1852443246FF1AE30 /* PrimaryButton.swift */,
@@ -432,6 +435,7 @@
 				2C51287E6AC6E98B22DDCFED /* AppBackground.swift in Sources */,
 				60866FF24A708AA6519426BC /* AppConfig.swift in Sources */,
 				0968605382CC018BCDF0E6C4 /* AppDataStore.swift in Sources */,
+				95EB5DEB3467EB446184B46D /* AppSymbols.swift in Sources */,
 				7A4985924FE3C2772886C05D /* AppointmentRequestView.swift in Sources */,
 				2D5DCF931E8D3A44AC250778 /* AppointmentRequestViewModel.swift in Sources */,
 				718C31FDA32CB56BBA414BC8 /* BookView.swift in Sources */,

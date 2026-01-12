@@ -9,7 +9,7 @@ struct OffersView: View {
 
             ScrollView {
                 VStack(spacing: 16) {
-                    SectionHeader(title: "Limited-Time Offers")
+                    SectionHeader(title: "Limited-Time Offers", systemImage: AppSymbol.offers)
 
                     ForEach(dataStore.offers) { offer in
                         NavigationLink {

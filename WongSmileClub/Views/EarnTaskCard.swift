@@ -10,9 +10,7 @@ struct EarnTaskCard: View {
     var body: some View {
         GlassCard {
             HStack(alignment: .top, spacing: 16) {
-                Image(systemName: systemImage)
-                    .font(.system(size: 28, weight: .semibold))
-                    .foregroundStyle(Color.accentColor)
+                AppIcon(name: systemImage, size: AppIconSize.card, weight: .semibold, color: .accentColor)
                     .frame(width: 44)
 
                 VStack(alignment: .leading, spacing: 6) {

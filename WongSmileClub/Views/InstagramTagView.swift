@@ -21,7 +21,7 @@ struct InstagramTagView: View {
                 VStack(spacing: 16) {
                     GlassCard {
                         VStack(alignment: .leading, spacing: 12) {
-                            SectionHeader(title: "Instagram Tag")
+                            SectionHeader(title: "Instagram Tag", systemImage: AppSymbol.instagram)
 
                             TextField("Your name", text: $name)
                                 .textContentType(.name)
@@ -46,7 +46,7 @@ struct InstagramTagView: View {
                         }
                     }
 
-                    PrimaryButton(title: "Claim Instagram Points", systemImage: "sparkles") {
+                    PrimaryButton(title: "Claim Instagram Points", systemImage: AppSymbol.instagram) {
                         let metadata = PointsTransaction.metadata(from: [
                             "name": name,
                             "contact": contact,
@@ -74,7 +74,7 @@ struct InstagramTagView: View {
             SubmissionSuccessView(
                 title: "Submitted",
                 message: "Thanks! We will verify at redemption.",
-                systemImage: "checkmark.seal.fill"
+                systemImage: AppSymbol.success
             )
         }
     }

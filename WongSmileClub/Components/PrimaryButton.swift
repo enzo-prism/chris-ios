@@ -5,10 +5,16 @@ struct PrimaryButtonLabel: View {
     let systemImage: String
 
     var body: some View {
-        Label(title, systemImage: systemImage)
-            .font(.system(.title3, design: .rounded).weight(.semibold))
-            .frame(maxWidth: .infinity)
-            .padding(.vertical, 16)
+        AppLabel(
+            title: title,
+            systemImage: systemImage,
+            iconSize: AppIconSize.button,
+            iconWeight: .semibold,
+            textFont: .system(.title3, design: .rounded).weight(.semibold),
+            spacing: 10
+        )
+        .frame(maxWidth: .infinity)
+        .padding(.vertical, 16)
     }
 }
 

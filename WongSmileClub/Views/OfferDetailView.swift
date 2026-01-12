@@ -49,7 +49,7 @@ struct OfferDetailView: View {
                 Button {
                     showSafari = true
                 } label: {
-                    PrimaryButtonLabel(title: "Shop Offer", systemImage: "cart.fill")
+                    PrimaryButtonLabel(title: "Shop Offer", systemImage: AppSymbol.shop)
                 }
                 .buttonStyle(PrimaryButtonStyle())
                 .disabled(offer.isExpired || offer.urlValue == nil)

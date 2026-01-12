@@ -14,9 +14,7 @@ struct FeedbackSuccessView: View {
             AppBackground()
 
             VStack(spacing: 20) {
-                Image(systemName: "checkmark.seal.fill")
-                    .font(.system(size: 48, weight: .bold))
-                    .foregroundStyle(Color.accentColor)
+                AppIcon(name: AppSymbol.success, size: AppIconSize.hero, weight: .bold, color: .accentColor)
 
                 Text("Feedback Sent")
                     .font(.system(.title2, design: .rounded).weight(.bold))
@@ -37,7 +35,12 @@ struct FeedbackSuccessView: View {
                         safariURL = googleURL
                         showSafari = true
                     } label: {
-                        Label("Leave a Google Review", systemImage: "globe")
+                        AppLabel(
+                            title: "Leave a Google Review",
+                            systemImage: AppSymbol.review,
+                            iconSize: AppIconSize.inline,
+                            textFont: .system(.headline, design: .rounded)
+                        )
                     }
                     .buttonStyle(.borderedProminent)
                 }
@@ -47,12 +50,17 @@ struct FeedbackSuccessView: View {
                         safariURL = yelpURL
                         showSafari = true
                     } label: {
-                        Label("Leave a Yelp Review", systemImage: "globe")
+                        AppLabel(
+                            title: "Leave a Yelp Review",
+                            systemImage: AppSymbol.review,
+                            iconSize: AppIconSize.inline,
+                            textFont: .system(.headline, design: .rounded)
+                        )
                     }
                     .buttonStyle(.bordered)
                 }
 
-                PrimaryButton(title: "Done", systemImage: "checkmark") {
+                PrimaryButton(title: "Done", systemImage: AppSymbol.confirm) {
                     dismiss()
                 }
             }

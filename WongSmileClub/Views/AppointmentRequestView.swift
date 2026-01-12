@@ -19,7 +19,7 @@ struct AppointmentRequestView: View {
                 VStack(spacing: 16) {
                     GlassCard {
                         VStack(alignment: .leading, spacing: 12) {
-                            SectionHeader(title: "Appointment Request")
+                            SectionHeader(title: "Appointment Request", systemImage: AppSymbol.book)
 
                             TextField("Full name", text: $viewModel.fullName)
                                 .textContentType(.name)
@@ -68,7 +68,7 @@ struct AppointmentRequestView: View {
                         }
                     }
 
-                    PrimaryButton(title: viewModel.status.isSubmitting ? "Submitting..." : "Submit Request", systemImage: "paperplane.fill") {
+                    PrimaryButton(title: viewModel.status.isSubmitting ? "Submitting..." : "Submit Request", systemImage: AppSymbol.submit) {
                         Task {
                             await viewModel.submit()
                         }
@@ -96,7 +96,7 @@ struct AppointmentRequestView: View {
             SubmissionSuccessView(
                 title: "Request Sent",
                 message: successMessage,
-                systemImage: "checkmark.seal.fill"
+                systemImage: AppSymbol.success
             )
         }
         .alert("Submission Failed", isPresented: Binding(get: {

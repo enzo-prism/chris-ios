@@ -15,7 +15,7 @@ struct RewardsView: View {
 
             ScrollView {
                 VStack(spacing: 16) {
-                    SectionHeader(title: "Rewards")
+                    SectionHeader(title: "Rewards", systemImage: AppSymbol.rewards)
 
                     Text("Available points: \(balance)")
                         .font(.subheadline)

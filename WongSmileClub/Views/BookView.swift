@@ -13,7 +13,7 @@ struct BookView: View {
 
             ScrollView {
                 VStack(spacing: 20) {
-                    SectionHeader(title: "Book Your Visit")
+                    SectionHeader(title: "Book Your Visit", systemImage: AppSymbol.book)
 
                     NavigationLink {
                         AppointmentRequestView(config: config, formspree: formspree)
@@ -22,7 +22,7 @@ struct BookView: View {
                             bookingCardContent(
                                 title: "Request Appointment",
                                 subtitle: "Send a quick request and we will confirm.",
-                                systemImage: "calendar.badge.plus"
+                                systemImage: AppSymbol.book
                             )
                         }
                     }
@@ -36,7 +36,7 @@ struct BookView: View {
                             bookingCardContent(
                                 title: "Online Scheduling",
                                 subtitle: "Book instantly on our scheduling page.",
-                                systemImage: "calendar"
+                                systemImage: AppSymbol.schedule
                             )
                         }
                     }
@@ -51,7 +51,7 @@ struct BookView: View {
                             bookingCardContent(
                                 title: "Call Office",
                                 subtitle: config.phone,
-                                systemImage: "phone.fill"
+                                systemImage: AppSymbol.call
                             )
                         }
                     }
@@ -60,7 +60,7 @@ struct BookView: View {
                     NavigationLink {
                         EmergencyView()
                     } label: {
-                        PrimaryButtonLabel(title: "Emergency", systemImage: "cross.case.fill")
+                        PrimaryButtonLabel(title: "Emergency", systemImage: AppSymbol.emergency)
                     }
                     .buttonStyle(PrimaryButtonStyle())
                 }
@@ -78,9 +78,7 @@ struct BookView: View {
 
     private func bookingCardContent(title: String, subtitle: String, systemImage: String) -> some View {
         HStack(spacing: 16) {
-            Image(systemName: systemImage)
-                .font(.system(size: 28, weight: .semibold))
-                .foregroundStyle(Color.accentColor)
+            IconBadge(systemImage: systemImage)
                 .frame(width: 44)
 
             VStack(alignment: .leading, spacing: 6) {

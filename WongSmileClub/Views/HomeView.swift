@@ -30,9 +30,9 @@ struct HomeView: View {
                 NavigationLink {
                     ProfileView()
                 } label: {
-                    Image(systemName: "person.crop.circle")
-                        .font(.title3)
+                    AppIcon(name: AppSymbol.profile, size: AppIconSize.nav, weight: .semibold)
                 }
+                .accessibilityLabel("Profile")
             }
         }
     }
@@ -90,14 +90,14 @@ struct HomeView: View {
             NavigationLink {
                 AppointmentRequestView(config: config, formspree: formspree)
             } label: {
-                PrimaryButtonLabel(title: "Book Appointment", systemImage: "calendar.badge.plus")
+                PrimaryButtonLabel(title: "Book Appointment", systemImage: AppSymbol.book)
             }
             .buttonStyle(PrimaryButtonStyle())
 
             NavigationLink {
                 EmergencyView()
             } label: {
-                PrimaryButtonLabel(title: "Emergency", systemImage: "cross.case.fill")
+                PrimaryButtonLabel(title: "Emergency", systemImage: AppSymbol.emergency)
             }
             .buttonStyle(PrimaryButtonStyle())
 
@@ -105,14 +105,14 @@ struct HomeView: View {
                 NavigationLink {
                     EarnView()
                 } label: {
-                    PrimaryButtonLabel(title: "Earn Points", systemImage: "sparkles")
+                    PrimaryButtonLabel(title: "Earn Points", systemImage: AppSymbol.earn)
                 }
                 .buttonStyle(PrimaryButtonStyle())
 
                 NavigationLink {
                     RewardsView()
                 } label: {
-                    PrimaryButtonLabel(title: "Redeem", systemImage: "gift.fill")
+                    PrimaryButtonLabel(title: "Redeem", systemImage: AppSymbol.rewards)
                 }
                 .buttonStyle(PrimaryButtonStyle())
             }
@@ -121,7 +121,7 @@ struct HomeView: View {
 
     private var offersPreview: some View {
         VStack(alignment: .leading, spacing: 12) {
-            SectionHeader(title: "Limited-Time Offers")
+            SectionHeader(title: "Limited-Time Offers", systemImage: AppSymbol.offers)
 
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 16) {
