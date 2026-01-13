@@ -38,13 +38,13 @@ struct HomeView: View {
     }
 
     private var heroCard: some View {
-        let balance = PointsSummary.balance(from: transactions)
+        let balances = PointsSummary.balances(from: transactions)
         let nextReward = dataStore.rewards
-            .filter { $0.pointsCost > balance }
+            .filter { $0.pointsCost > balances.available }
             .sorted { $0.pointsCost < $1.pointsCost }
             .first
         let progressTotal = max(nextReward?.pointsCost ?? 1, 1)
-        let progressValue = min(balance, progressTotal)
+        let progressValue = min(balances.available, progressTotal)
         let name = profiles.first?.name.isEmpty == false ? profiles.first?.name ?? "" : ""
 
         return GlassCard {
@@ -54,14 +54,20 @@ struct HomeView: View {
 
                 HStack {
                     VStack(alignment: .leading, spacing: 6) {
-                        Text("Smile Points")
+                        Text("Available Points")
                             .font(.subheadline)
                             .foregroundStyle(.secondary)
-                        Text("\(balance)")
+                        Text("\(balances.available)")
                             .font(.system(.largeTitle, design: .rounded).weight(.bold))
                     }
                     Spacer()
-                    PointsPill(points: balance)
+                    PointsPill(points: balances.available)
+                }
+
+                if balances.pending > 0 {
+                    Text("Pending points: \(balances.pending)")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
                 }
 
                 if let nextReward = nextReward {
@@ -138,5 +144,5 @@ struct HomeView: View {
 
 #Preview {
     HomeView()
-        .environmentObject(AppDataStore())
+        .environmentObject(AppDataStore(config: AppConfig()))
 }

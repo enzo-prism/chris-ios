@@ -30,6 +30,9 @@ targets:
   WongSmileClubTests:
     type: bundle.unit-test
     platform: iOS
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
     sources:
       - WongSmileClubTests
     dependencies:
@@ -38,6 +41,9 @@ targets:
   WongSmileClubUITests:
     type: bundle.ui-testing
     platform: iOS
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
     sources:
       - WongSmileClubUITests
     dependencies:

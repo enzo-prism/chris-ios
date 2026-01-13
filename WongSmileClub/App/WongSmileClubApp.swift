@@ -6,16 +6,18 @@ struct WongSmileClubApp: App {
     let modelContainer: ModelContainer
     let config: AppConfig
     let formspreeClient: FormspreeClient
-    @StateObject private var dataStore = AppDataStore()
+    @StateObject private var dataStore: AppDataStore
 
     init() {
-        config = AppConfig()
+        let loadedConfig = AppConfig()
+        config = loadedConfig
         formspreeClient = FormspreeClient()
         do {
-            modelContainer = try ModelContainer(for: UserProfile.self, PointsTransaction.self)
+            modelContainer = try ModelContainer(for: UserProfile.self, PointsTransaction.self, PatientQuestion.self)
         } catch {
             fatalError("Failed to create ModelContainer: \(error)")
         }
+        _dataStore = StateObject(wrappedValue: AppDataStore(config: loadedConfig))
     }
 
     var body: some Scene {

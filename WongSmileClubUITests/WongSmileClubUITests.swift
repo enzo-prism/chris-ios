@@ -6,10 +6,10 @@ final class WongSmileClubUITests: XCTestCase {
         app.launch()
 
         let tabBar = app.tabBars
-        XCTAssertTrue(tabBar.buttons["Home"].exists)
+        XCTAssertTrue(tabBar.buttons["Care"].exists)
         XCTAssertTrue(tabBar.buttons["Book"].exists)
-        XCTAssertTrue(tabBar.buttons["Earn"].exists)
-        XCTAssertTrue(tabBar.buttons["Rewards"].exists)
+        XCTAssertTrue(tabBar.buttons["Club"].exists)
         XCTAssertTrue(tabBar.buttons["Offers"].exists)
+        XCTAssertTrue(tabBar.buttons["More"].exists)
     }
 }

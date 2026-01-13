@@ -1,9 +1,11 @@
 import SwiftUI
 import SwiftData
+import UIKit
 
 struct InstagramTagView: View {
     @Query private var profiles: [UserProfile]
     @Environment(\.dismiss) private var dismiss
+    @Environment(\.appConfig) private var config
 
     let pointsStore: PointsStore
 
@@ -12,6 +14,7 @@ struct InstagramTagView: View {
     @State private var postLink = ""
     @State private var note = ""
     @State private var showSuccess = false
+    @State private var showCopiedAlert = false
 
     var body: some View {
         ZStack {
@@ -40,6 +43,19 @@ struct InstagramTagView: View {
                             TextField("Optional note", text: $note, axis: .vertical)
                                 .textFieldStyle(.roundedBorder)
 
+                            Button {
+                                UIPasteboard.general.string = config.instagramDisclosureText
+                                showCopiedAlert = true
+                            } label: {
+                                AppLabel(
+                                    title: "Copy disclosure text",
+                                    systemImage: AppSymbol.copy,
+                                    iconSize: AppIconSize.inline,
+                                    textFont: .system(.subheadline, design: .rounded)
+                                )
+                            }
+                            .buttonStyle(.bordered)
+
                             Text("Do not include medical details; we will call you.")
                                 .font(.footnote)
                                 .foregroundStyle(.secondary)
@@ -53,7 +69,16 @@ struct InstagramTagView: View {
                             "postLink": postLink,
                             "note": note
                         ])
-                        pointsStore.addTransaction(PointsTransaction(type: .earn, source: .instagram, points: PointsValues.instagram, note: "Instagram tag", metadataJSON: metadata))
+                        pointsStore.addTransaction(
+                            PointsTransaction(
+                                type: .earn,
+                                status: .pending,
+                                source: .instagram,
+                                points: PointsValues.instagram,
+                                note: "Instagram tag",
+                                metadataJSON: metadata
+                            )
+                        )
                         showSuccess = true
                     }
                     .disabled(name.isEmpty || contact.isEmpty)
@@ -76,6 +101,11 @@ struct InstagramTagView: View {
                 message: "Thanks! We will verify at redemption.",
                 systemImage: AppSymbol.success
             )
+        }
+        .alert("Copied", isPresented: $showCopiedAlert) {
+            Button("OK", role: .cancel) {}
+        } message: {
+            Text("Disclosure text copied to your clipboard.")
         }
     }
 }

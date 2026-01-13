@@ -70,7 +70,15 @@ final class MediaSubmissionViewModel: ObservableObject {
 
         do {
             try await formspree.submitMultipart(endpointURL: endpoint, fields: fields, fileData: fileData, fileName: fileName, mimeType: mimeType)
-            pointsStore.addTransaction(PointsTransaction(type: .earn, source: mediaType.source, points: mediaType.points, note: mediaType.title))
+            pointsStore.addTransaction(
+                PointsTransaction(
+                    type: .earn,
+                    status: .pending,
+                    source: mediaType.source,
+                    points: mediaType.points,
+                    note: mediaType.title
+                )
+            )
             status = .success(message: "Thanks! We will review it soon.")
         } catch {
             status = .failure(message: error.localizedDescription)

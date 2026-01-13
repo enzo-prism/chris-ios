@@ -2,9 +2,7 @@ import SwiftUI
 import SwiftData
 
 struct ProfileView: View {
-    @Environment(\.appConfig) private var config
     @Environment(\.modelContext) private var modelContext
-    @Query(sort: \PointsTransaction.date, order: .reverse) private var transactions: [PointsTransaction]
     @Query private var profiles: [UserProfile]
 
     @State private var name = ""
@@ -13,10 +11,6 @@ struct ProfileView: View {
     @State private var consentRepost = false
     @State private var consentMarketing = false
     @State private var loadedProfile = false
-
-    private var balance: Int {
-        PointsSummary.balance(from: transactions)
-    }
 
     var body: some View {
         ZStack {
@@ -49,68 +43,6 @@ struct ProfileView: View {
 
                             PrimaryButton(title: "Save Profile", systemImage: AppSymbol.confirm) {
                                 saveProfile()
-                            }
-                        }
-                    }
-
-                    GlassCard {
-                        VStack(alignment: .leading, spacing: 12) {
-                            SectionHeader(title: "Points History", systemImage: AppSymbol.history)
-                            Text("Current balance: \(balance)")
-                                .font(.subheadline)
-                                .foregroundStyle(.secondary)
-
-                            ForEach(transactions) { transaction in
-                                HStack {
-                                    VStack(alignment: .leading, spacing: 4) {
-                                        Text(sourceLabel(for: transaction.source))
-                                            .font(.subheadline)
-                                        Text(DateFormatter.shortDateTime.string(from: transaction.date))
-                                            .font(.caption)
-                                            .foregroundStyle(.secondary)
-                                    }
-                                    Spacer()
-                                    Text(transaction.displayPoints)
-                                        .font(.subheadline)
-                                        .foregroundStyle(transaction.type == .redeem ? .secondary : .primary)
-                                }
-                                .padding(.vertical, 4)
-                            }
-                        }
-                    }
-
-                    GlassCard {
-                        VStack(alignment: .leading, spacing: 12) {
-                            SectionHeader(title: "Practice Info", systemImage: AppSymbol.practice)
-                            Text(config.practiceName)
-                                .font(.headline)
-                            Text(config.address)
-                                .font(.subheadline)
-                                .foregroundStyle(.secondary)
-                            Text(config.phone)
-                                .font(.subheadline)
-                                .foregroundStyle(.secondary)
-
-                            if let url = config.websiteURL {
-                                Link("Visit Website", destination: url)
-                            }
-
-                            ForEach(config.practiceHours, id: \.self) { hour in
-                                Text(hour)
-                                    .font(.caption)
-                                    .foregroundStyle(.secondary)
-                            }
-                        }
-                    }
-
-                    GlassCard {
-                        VStack(alignment: .leading, spacing: 12) {
-                            SectionHeader(title: "Legal", systemImage: AppSymbol.legal)
-                            NavigationLink("Terms of Service") {
-                                LegalView(title: "Terms", bodyText: "TODO: Add terms of service.")
-                            }
-                            NavigationLink("Privacy Policy") {
-                                LegalView(title: "Privacy", bodyText: "TODO: Add privacy policy.")
                             }
                         }
                     }
@@ -153,20 +85,5 @@ struct ProfileView: View {
         profile.consentRepost = consentRepost
         profile.consentMarketing = consentMarketing
         try? modelContext.save()
-    }
-
-    private func sourceLabel(for source: PointsTransaction.Source) -> String {
-        switch source {
-        case .referral: return "Referral"
-        case .photo: return "Smile photo"
-        case .video: return "Smile video"
-        case .instagram: return "Instagram"
-        case .feedback: return "Private feedback"
-        case .appointment: return "Appointment"
-        case .rewardRedemption: return "Reward redemption"
-        case .publicReviewGoogle: return "Google review"
-        case .publicReviewYelp: return "Yelp review"
-        case .other: return "Other"
-        }
     }
 }

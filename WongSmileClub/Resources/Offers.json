@@ -7,8 +7,9 @@
     "partner": "CrystalClear",
     "url": "https://example.com/whitening-pens",
     "promoCode": "SMILE10",
-    "startDate": "2025-01-01T00:00:00Z",
-    "endDate": "2025-02-28T23:59:59Z",
+    "startDate": "2026-01-01T00:00:00Z",
+    "endDate": "2026-04-30T23:59:59Z",
+    "tags": ["whitening", "cosmetic"],
     "imageName": null
   },
   {
@@ -19,8 +20,9 @@
     "partner": "SonicPulse",
     "url": "https://example.com/sonicpulse",
     "promoCode": "",
-    "startDate": "2025-01-10T00:00:00Z",
-    "endDate": "2025-03-15T23:59:59Z",
+    "startDate": "2026-02-01T00:00:00Z",
+    "endDate": "2026-05-31T23:59:59Z",
+    "tags": ["hygiene", "gum-health"],
     "imageName": null
   },
   {
@@ -31,8 +33,9 @@
     "partner": "EnamelGuard",
     "url": "https://example.com/enamelguard",
     "promoCode": "WONGSMILE",
-    "startDate": "2024-08-01T00:00:00Z",
-    "endDate": "2024-10-01T23:59:59Z",
+    "startDate": "2026-03-01T00:00:00Z",
+    "endDate": "2026-06-30T23:59:59Z",
+    "tags": ["sensitivity", "cavity-risk", "gum-health"],
     "imageName": null
   },
   {
@@ -43,8 +46,9 @@
     "partner": "WaterFloss",
     "url": "https://example.com/waterfloss",
     "promoCode": "",
-    "startDate": "2025-02-01T00:00:00Z",
-    "endDate": "2025-04-01T23:59:59Z",
+    "startDate": "2026-01-15T00:00:00Z",
+    "endDate": "2026-07-31T23:59:59Z",
+    "tags": ["hygiene", "gum-health", "invisalign"],
     "imageName": null
   }
 ]

@@ -47,7 +47,15 @@ final class ReferralViewModel: ObservableObject {
 
         do {
             try await formspree.submitJSON(endpointURL: endpoint, payload: payload)
-            pointsStore.addTransaction(PointsTransaction(type: .earn, source: .referral, points: PointsValues.referral, note: "Referral"))
+            pointsStore.addTransaction(
+                PointsTransaction(
+                    type: .earn,
+                    status: .pending,
+                    source: .referral,
+                    points: PointsValues.referral,
+                    note: "Referral"
+                )
+            )
             status = .success(message: "Referral received. We will follow up soon.")
         } catch {
             status = .failure(message: error.localizedDescription)

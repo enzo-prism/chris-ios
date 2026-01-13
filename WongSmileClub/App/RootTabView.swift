@@ -4,10 +4,10 @@ struct RootTabView: View {
     var body: some View {
         TabView {
             NavigationStack {
-                HomeView()
+                CareView()
             }
             .tabItem {
-                Label("Home", systemImage: AppSymbol.home)
+                Label("Care", systemImage: AppSymbol.care)
             }
 
             NavigationStack {
@@ -18,17 +18,10 @@ struct RootTabView: View {
             }
 
             NavigationStack {
-                EarnView()
+                ClubView()
             }
             .tabItem {
-                Label("Earn", systemImage: AppSymbol.earn)
-            }
-
-            NavigationStack {
-                RewardsView()
-            }
-            .tabItem {
-                Label("Rewards", systemImage: AppSymbol.rewards)
+                Label("Club", systemImage: AppSymbol.club)
             }
 
             NavigationStack {
@@ -36,6 +29,13 @@ struct RootTabView: View {
             }
             .tabItem {
                 Label("Offers", systemImage: AppSymbol.offers)
+            }
+
+            NavigationStack {
+                MoreView()
+            }
+            .tabItem {
+                Label("More", systemImage: AppSymbol.more)
             }
         }
     }

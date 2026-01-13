@@ -1,0 +1,308 @@
+[
+  {
+    "id": "topic-sensitivity",
+    "title": "Tooth Sensitivity",
+    "shortSummary": "Tips for managing short, sharp sensitivity to cold or sweets.",
+    "category": "Comfort",
+    "tags": ["sensitivity"],
+    "whenToCallOffice": [
+      "Sensitivity lasts longer than a few weeks",
+      "Pain is sharp or lingering after hot/cold",
+      "You see a visible chip or crack"
+    ],
+    "doDont": [
+      "Do: Use a sensitivity toothpaste",
+      "Do: Brush with a soft bristle brush",
+      "Don't: Over-brush or scrub hard",
+      "Don't: Skip flossing"
+    ],
+    "links": [
+      {
+        "id": "link-ada-sensitivity",
+        "title": "Tooth sensitivity basics",
+        "url": "https://www.ada.org/resources/research/science-and-research-institute/oral-health-topics/tooth-sensitivity",
+        "sourceLabel": "American Dental Association"
+      }
+    ]
+  },
+  {
+    "id": "topic-toothache",
+    "title": "Toothache Basics",
+    "shortSummary": "How to manage discomfort and know when to seek care.",
+    "category": "Emergency",
+    "tags": ["toothache", "emergency"],
+    "whenToCallOffice": [
+      "Pain wakes you up at night",
+      "Swelling, fever, or facial pain",
+      "Pain lasts more than 48 hours"
+    ],
+    "doDont": [
+      "Do: Rinse gently with warm salt water",
+      "Do: Use over-the-counter pain relief as directed",
+      "Don't: Apply heat to a swollen area",
+      "Don't: Put aspirin directly on gums"
+    ],
+    "links": [
+      {
+        "id": "link-ada-toothache",
+        "title": "Toothache guidance",
+        "url": "https://www.ada.org/resources/ada-library/oral-health-topics/toothaches",
+        "sourceLabel": "American Dental Association"
+      }
+    ]
+  },
+  {
+    "id": "topic-gum-bleeding",
+    "title": "Bleeding Gums",
+    "shortSummary": "Bleeding can be common, but it should not be ignored.",
+    "category": "Hygiene",
+    "tags": ["gum-health", "hygiene"],
+    "whenToCallOffice": [
+      "Bleeding lasts longer than a week",
+      "Gums feel swollen or tender",
+      "You notice bad breath that does not improve"
+    ],
+    "doDont": [
+      "Do: Floss gently every day",
+      "Do: Use a soft toothbrush",
+      "Don't: Skip cleaning because of bleeding",
+      "Don't: Use hard-bristle brushes"
+    ],
+    "links": [
+      {
+        "id": "link-ada-gums",
+        "title": "Gum disease prevention",
+        "url": "https://www.ada.org/resources/ada-library/oral-health-topics/gum-disease",
+        "sourceLabel": "American Dental Association"
+      }
+    ]
+  },
+  {
+    "id": "topic-whitening",
+    "title": "Whitening Tips",
+    "shortSummary": "Maintain a brighter smile with safe habits.",
+    "category": "Cosmetic",
+    "tags": ["whitening", "cosmetic"],
+    "whenToCallOffice": [
+      "You want professional whitening options",
+      "Sensitivity increases after whitening"
+    ],
+    "doDont": [
+      "Do: Rinse after coffee or tea",
+      "Do: Use a straw for dark beverages",
+      "Don't: Overuse whitening strips",
+      "Don't: Skip checkups before whitening"
+    ],
+    "links": [
+      {
+        "id": "link-ada-whitening",
+        "title": "Whitening safety",
+        "url": "https://www.ada.org/resources/research/science-and-research-institute/oral-health-topics/tooth-whitening",
+        "sourceLabel": "American Dental Association"
+      }
+    ]
+  },
+  {
+    "id": "topic-invisalign-care",
+    "title": "Aligner Care",
+    "shortSummary": "Keep aligners clean and comfortable.",
+    "category": "Ortho",
+    "tags": ["invisalign", "orthodontics"],
+    "whenToCallOffice": [
+      "Aligner feels loose or damaged",
+      "You lose an aligner and need guidance"
+    ],
+    "doDont": [
+      "Do: Rinse aligners with cool water",
+      "Do: Clean with a gentle brush",
+      "Don't: Use hot water",
+      "Don't: Eat or drink with aligners in"
+    ],
+    "links": [
+      {
+        "id": "link-invisalign-care",
+        "title": "Clear aligner care tips",
+        "url": "https://www.invisalign.com/how-invisalign-works/aligner-care",
+        "sourceLabel": "Invisalign"
+      }
+    ]
+  },
+  {
+    "id": "topic-night-guard",
+    "title": "Night Guards",
+    "shortSummary": "Protect teeth from grinding and clenching.",
+    "category": "Comfort",
+    "tags": ["night-guard", "bite-wear"],
+    "whenToCallOffice": [
+      "Jaw soreness in the morning",
+      "Headaches after sleep",
+      "Visible wear or chips"
+    ],
+    "doDont": [
+      "Do: Clean guard daily",
+      "Do: Store in a ventilated case",
+      "Don't: Use toothpaste with abrasives",
+      "Don't: Leave in direct sunlight"
+    ],
+    "links": [
+      {
+        "id": "link-ada-grinding",
+        "title": "Teeth grinding overview",
+        "url": "https://www.ada.org/resources/ada-library/oral-health-topics/bruxism",
+        "sourceLabel": "American Dental Association"
+      }
+    ]
+  },
+  {
+    "id": "topic-flossing",
+    "title": "Flossing Basics",
+    "shortSummary": "Clean between teeth to prevent decay.",
+    "category": "Hygiene",
+    "tags": ["flossing", "hygiene"],
+    "whenToCallOffice": [
+      "Bleeding persists after a week of daily flossing",
+      "You see swelling between teeth"
+    ],
+    "doDont": [
+      "Do: Glide gently between teeth",
+      "Do: Use a clean section each time",
+      "Don't: Snap floss into gums",
+      "Don't: Skip back molars"
+    ],
+    "links": [
+      {
+        "id": "link-ada-flossing",
+        "title": "How to floss",
+        "url": "https://www.ada.org/resources/ada-library/oral-health-topics/flossing",
+        "sourceLabel": "American Dental Association"
+      }
+    ]
+  },
+  {
+    "id": "topic-electric-toothbrush",
+    "title": "Electric Toothbrush Tips",
+    "shortSummary": "Get the most out of your brush head.",
+    "category": "Hygiene",
+    "tags": ["electric-toothbrush", "hygiene"],
+    "whenToCallOffice": [
+      "Gums feel irritated after brushing",
+      "You are unsure which brush is right"
+    ],
+    "doDont": [
+      "Do: Let the brush do the work",
+      "Do: Replace brush head every 3 months",
+      "Don't: Press hard",
+      "Don't: Rush the routine"
+    ],
+    "links": [
+      {
+        "id": "link-cdc-oral-health",
+        "title": "Oral health basics",
+        "url": "https://www.cdc.gov/oralhealth/index.html",
+        "sourceLabel": "CDC"
+      }
+    ]
+  },
+  {
+    "id": "topic-canker-sores",
+    "title": "Canker Sores",
+    "shortSummary": "Common triggers and ways to soothe.",
+    "category": "Comfort",
+    "tags": ["canker-sore"],
+    "whenToCallOffice": [
+      "Sores last longer than two weeks",
+      "Severe pain or multiple sores"
+    ],
+    "doDont": [
+      "Do: Avoid spicy foods",
+      "Do: Use a gentle salt rinse",
+      "Don't: Pick at the sore",
+      "Don't: Use alcohol-based mouthwash"
+    ],
+    "links": [
+      {
+        "id": "link-nih-canker",
+        "title": "Canker sore overview",
+        "url": "https://medlineplus.gov/cankersores.html",
+        "sourceLabel": "MedlinePlus"
+      }
+    ]
+  },
+  {
+    "id": "topic-chipped-tooth",
+    "title": "Chipped Tooth",
+    "shortSummary": "Quick steps to protect a chipped tooth.",
+    "category": "Emergency",
+    "tags": ["chipped-tooth", "emergency"],
+    "whenToCallOffice": [
+      "Sharp edges irritate your tongue",
+      "Pain or sensitivity increases",
+      "Large portion of tooth is missing"
+    ],
+    "doDont": [
+      "Do: Rinse gently with warm water",
+      "Do: Cover sharp edges with wax if needed",
+      "Don't: Chew on the affected side",
+      "Don't: Ignore swelling"
+    ],
+    "links": [
+      {
+        "id": "link-ada-chipped",
+        "title": "Chipped tooth guidance",
+        "url": "https://www.ada.org/resources/ada-library/oral-health-topics/chipped-tooth",
+        "sourceLabel": "American Dental Association"
+      }
+    ]
+  },
+  {
+    "id": "topic-post-cleaning",
+    "title": "Post-Cleaning Soreness",
+    "shortSummary": "What to expect after a cleaning visit.",
+    "category": "Comfort",
+    "tags": ["post-cleaning"],
+    "whenToCallOffice": [
+      "Soreness lasts longer than 48 hours",
+      "Gums feel swollen or painful"
+    ],
+    "doDont": [
+      "Do: Use warm salt rinses",
+      "Do: Keep brushing gently",
+      "Don't: Skip brushing",
+      "Don't: Use whitening products immediately"
+    ],
+    "links": [
+      {
+        "id": "link-ada-cleaning",
+        "title": "Professional cleaning overview",
+        "url": "https://www.ada.org/resources/ada-library/oral-health-topics/dental-cleanings",
+        "sourceLabel": "American Dental Association"
+      }
+    ]
+  },
+  {
+    "id": "topic-emergency",
+    "title": "Dental Emergency Basics",
+    "shortSummary": "Know what to do before you can get care.",
+    "category": "Emergency",
+    "tags": ["emergency"],
+    "whenToCallOffice": [
+      "Bleeding does not stop",
+      "Severe pain or swelling",
+      "Tooth is knocked out"
+    ],
+    "doDont": [
+      "Do: Call the office right away",
+      "Do: Apply a cold compress",
+      "Don't: Delay if swelling spreads",
+      "Don't: Use unprescribed medications"
+    ],
+    "links": [
+      {
+        "id": "link-ada-emergency",
+        "title": "Emergency care tips",
+        "url": "https://www.ada.org/resources/ada-library/oral-health-topics/dental-emergencies",
+        "sourceLabel": "American Dental Association"
+      }
+    ]
+  }
+]

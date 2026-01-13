@@ -11,6 +11,13 @@ struct OffersView: View {
                 VStack(spacing: 16) {
                     SectionHeader(title: "Limited-Time Offers", systemImage: AppSymbol.offers)
 
+                    if let lastUpdated = dataStore.offersLastUpdated {
+                        Text("Last updated \(DateFormatter.shortDateTime.string(from: lastUpdated))")
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                    }
+
                     ForEach(dataStore.offers) { offer in
                         NavigationLink {
                             OfferDetailView(offer: offer)
@@ -25,5 +32,8 @@ struct OffersView: View {
             }
         }
         .navigationTitle("Offers")
+        .refreshable {
+            await dataStore.refreshOffers()
+        }
     }
 }

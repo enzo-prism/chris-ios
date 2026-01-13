@@ -6,12 +6,12 @@ struct FeedbackView: View {
     @State private var successMessage = ""
 
     let googleURL: URL?
-    let yelpURL: URL?
+    let yelpReviewURL: URL?
 
     init(pointsStore: PointsStore, config: AppConfig, formspree: FormspreeClientProtocol) {
         _viewModel = StateObject(wrappedValue: FeedbackViewModel(config: config, formspree: formspree, pointsStore: pointsStore))
         googleURL = config.googleReviewURL
-        yelpURL = config.yelpURL
+        yelpReviewURL = config.yelpReviewURL
     }
 
     var body: some View {
@@ -62,7 +62,7 @@ struct FeedbackView: View {
             }
         }
         .sheet(isPresented: $showSuccess) {
-            FeedbackSuccessView(message: successMessage, googleURL: googleURL, yelpURL: yelpURL)
+            FeedbackSuccessView(message: successMessage, googleURL: googleURL, yelpURL: yelpReviewURL)
         }
         .alert("Submission Failed", isPresented: Binding(get: {
             viewModel.status.errorMessage != nil

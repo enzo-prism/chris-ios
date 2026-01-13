@@ -2,7 +2,8 @@ import SwiftUI
 
 struct RewardCardView: View {
     let reward: Reward
-    let balance: Int
+    let availableBalance: Int
+    let pendingBalance: Int
 
     var body: some View {
         GlassCard {
@@ -22,10 +23,16 @@ struct RewardCardView: View {
                     PointsPill(points: reward.pointsCost)
                 }
 
-                if !RewardRedemptionRules.canRedeem(reward: reward, balance: balance) {
-                    Text("Need \(reward.pointsCost - balance) more points")
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
+                if !RewardRedemptionRules.canRedeem(reward: reward, balance: availableBalance) {
+                    if availableBalance + pendingBalance >= reward.pointsCost, pendingBalance > 0 {
+                        Text("You have pending points that aren’t available yet.")
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
+                    } else {
+                        Text("Need \(max(reward.pointsCost - availableBalance, 0)) more points")
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
+                    }
                 }
             }
         }

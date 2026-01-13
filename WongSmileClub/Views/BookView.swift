@@ -6,6 +6,7 @@ struct BookView: View {
     @Environment(\.openURL) private var openURL
     @State private var showScheduling = false
     @State private var schedulingURL: URL?
+    @State private var showSchedulingAlert = false
 
     var body: some View {
         ZStack {
@@ -30,7 +31,11 @@ struct BookView: View {
 
                     Button {
                         schedulingURL = config.schedulingURL
-                        showScheduling = schedulingURL != nil
+                        if schedulingURL != nil {
+                            showScheduling = true
+                        } else {
+                            showSchedulingAlert = true
+                        }
                     } label: {
                         GlassCard {
                             bookingCardContent(
@@ -50,7 +55,7 @@ struct BookView: View {
                         GlassCard {
                             bookingCardContent(
                                 title: "Call Office",
-                                subtitle: config.phone,
+                                subtitle: config.phoneDisplay,
                                 systemImage: AppSymbol.call
                             )
                         }
@@ -73,6 +78,11 @@ struct BookView: View {
             if let schedulingURL {
                 SafariView(url: schedulingURL)
             }
+        }
+        .alert("Scheduling Unavailable", isPresented: $showSchedulingAlert) {
+            Button("OK", role: .cancel) {}
+        } message: {
+            Text("Online scheduling is not configured yet. Call the office to book.")
         }
     }
 

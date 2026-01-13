@@ -6,9 +6,15 @@ struct BundleDataService {
     }
 
     static func loadOffers() -> [Offer] {
-        let decoder = JSONDecoder()
-        decoder.dateDecodingStrategy = .iso8601
-        return loadArray(resource: "Offers", decoder: decoder)
+        loadArray(resource: "Offers", decoder: iso8601Decoder)
+    }
+
+    static func loadSpecialists() -> [Specialist] {
+        loadArray(resource: "Specialists", decoder: JSONDecoder())
+    }
+
+    static func loadEducationTopics() -> [EducationTopic] {
+        loadArray(resource: "EducationTopics", decoder: JSONDecoder())
     }
 
     private static func loadArray<T: Decodable>(resource: String, decoder: JSONDecoder) -> [T] {
@@ -21,5 +27,11 @@ struct BundleDataService {
         } catch {
             return []
         }
+    }
+
+    static var iso8601Decoder: JSONDecoder {
+        let decoder = JSONDecoder()
+        decoder.dateDecodingStrategy = .iso8601
+        return decoder
     }
 }

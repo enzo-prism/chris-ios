@@ -1,0 +1,98 @@
+[
+  {
+    "id": "spec-endo-001",
+    "category": "Endodontist",
+    "name": "Dr. Jamie Patel",
+    "practiceName": "Peninsula Endodontics",
+    "phone": "(650) 555-0101",
+    "address": "800 El Camino Real, Palo Alto, CA",
+    "websiteURL": "https://example.com/peninsula-endo",
+    "mapQuery": "Peninsula Endodontics Palo Alto CA",
+    "whyRecommended": "Experienced with complex root canal retreats and gentle chairside care.",
+    "tags": ["cavity-risk", "emergency"]
+  },
+  {
+    "id": "spec-endo-002",
+    "category": "Endodontist",
+    "name": "Dr. Alexis Chen",
+    "practiceName": "Midtown Endo Group",
+    "phone": "(650) 555-0112",
+    "address": "455 University Ave, Palo Alto, CA",
+    "websiteURL": "https://example.com/midtown-endo",
+    "mapQuery": "Midtown Endo Group Palo Alto CA",
+    "whyRecommended": "Great for urgent pain relief and clear post-op guidance.",
+    "tags": ["sensitivity", "emergency"]
+  },
+  {
+    "id": "spec-perio-001",
+    "category": "Periodontist",
+    "name": "Dr. Sofia Morales",
+    "practiceName": "Bay Periodontal Care",
+    "phone": "(650) 555-0202",
+    "address": "1200 Park Blvd, Palo Alto, CA",
+    "websiteURL": "https://example.com/bay-perio",
+    "mapQuery": "Bay Periodontal Care Palo Alto CA",
+    "whyRecommended": "Focused on gum health stabilization with conservative approaches.",
+    "tags": ["gum-health", "hygiene"]
+  },
+  {
+    "id": "spec-perio-002",
+    "category": "Periodontist",
+    "name": "Dr. Ravi Singh",
+    "practiceName": "Foothill Periodontics",
+    "phone": "(650) 555-0224",
+    "address": "3100 El Camino Real, Palo Alto, CA",
+    "websiteURL": "https://example.com/foothill-perio",
+    "mapQuery": "Foothill Periodontics Palo Alto CA",
+    "whyRecommended": "Strong preventive focus and thorough maintenance plans.",
+    "tags": ["gum-health", "cavity-risk"]
+  },
+  {
+    "id": "spec-ortho-001",
+    "category": "Orthodontist",
+    "name": "Dr. Hannah Lee",
+    "practiceName": "Summit Ortho Studio",
+    "phone": "(650) 555-0303",
+    "address": "850 Middlefield Rd, Palo Alto, CA",
+    "websiteURL": "https://example.com/summit-ortho",
+    "mapQuery": "Summit Ortho Studio Palo Alto CA",
+    "whyRecommended": "Excellent aligner planning and patient education.",
+    "tags": ["invisalign", "cosmetic"]
+  },
+  {
+    "id": "spec-ortho-002",
+    "category": "Orthodontist",
+    "name": "Dr. Marco Rivera",
+    "practiceName": "Willow Creek Orthodontics",
+    "phone": "(650) 555-0338",
+    "address": "210 Embarcadero Rd, Palo Alto, CA",
+    "websiteURL": "https://example.com/willow-ortho",
+    "mapQuery": "Willow Creek Orthodontics Palo Alto CA",
+    "whyRecommended": "Great for teen and adult alignment with flexible scheduling.",
+    "tags": ["invisalign", "hygiene"]
+  },
+  {
+    "id": "spec-oral-001",
+    "category": "Oral Surgeon",
+    "name": "Dr. Priya Nair",
+    "practiceName": "Redwood Oral Surgery",
+    "phone": "(650) 555-0404",
+    "address": "99 Alma St, Palo Alto, CA",
+    "websiteURL": "https://example.com/redwood-oral",
+    "mapQuery": "Redwood Oral Surgery Palo Alto CA",
+    "whyRecommended": "Trusted for extractions and surgical consults with clear recovery plans.",
+    "tags": ["emergency", "bite-wear"]
+  },
+  {
+    "id": "spec-oral-002",
+    "category": "Oral Surgeon",
+    "name": "Dr. Derek Gomez",
+    "practiceName": "Stanford Oral Surgery Partners",
+    "phone": "(650) 555-0419",
+    "address": "500 Pasteur Dr, Palo Alto, CA",
+    "websiteURL": "https://example.com/stanford-oral",
+    "mapQuery": "Stanford Oral Surgery Partners Palo Alto CA",
+    "whyRecommended": "Excellent coordination for complex surgical cases.",
+    "tags": ["emergency", "cavity-risk"]
+  }
+]

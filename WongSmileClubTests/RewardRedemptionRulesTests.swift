@@ -31,4 +31,20 @@ final class RewardRedemptionRulesTests: XCTestCase {
 
         XCTAssertFalse(RewardRedemptionRules.canRedeem(reward: reward, balance: 1000))
     }
+
+    func testPendingPointsDoNotEnableRedemption() {
+        let reward = Reward(
+            id: "reward-3",
+            title: "Pending Reward",
+            description: "",
+            pointsCost: 300,
+            finePrint: "",
+            category: "Test",
+            active: true
+        )
+
+        let canRedeem = RewardRedemptionRules.canRedeem(reward: reward, balance: 100)
+
+        XCTAssertFalse(canRedeem)
+    }
 }

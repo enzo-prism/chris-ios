@@ -5,6 +5,8 @@ import UniformTypeIdentifiers
 
 struct MediaSubmissionView: View {
     @Query private var profiles: [UserProfile]
+    @Environment(\.appConfig) private var config
+    @Environment(\.formspreeClient) private var formspree
     @StateObject private var viewModel: MediaSubmissionViewModel
     @State private var selectedItem: PhotosPickerItem?
     @State private var selectedData: Data?
@@ -77,6 +79,18 @@ struct MediaSubmissionView: View {
                         }
                     }
                     .disabled(viewModel.status.isSubmitting || viewModel.name.isEmpty || viewModel.contact.isEmpty || selectedData == nil)
+
+                    NavigationLink {
+                        ReportConcernView(config: config, formspree: formspree)
+                    } label: {
+                        AppLabel(
+                            title: "Report a concern",
+                            systemImage: AppSymbol.report,
+                            iconSize: AppIconSize.inline,
+                            textFont: .system(.subheadline, design: .rounded)
+                        )
+                    }
+                    .buttonStyle(.bordered)
                 }
                 .padding(.horizontal, 20)
                 .padding(.bottom, 32)

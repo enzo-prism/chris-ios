@@ -3,7 +3,8 @@ import SwiftData
 
 struct RewardDetailView: View {
     let reward: Reward
-    let balance: Int
+    let availableBalance: Int
+    let pendingBalance: Int
     @Environment(\.appConfig) private var config
     @Environment(\.formspreeClient) private var formspree
     @Environment(\.modelContext) private var modelContext
@@ -33,12 +34,24 @@ struct RewardDetailView: View {
                 }
 
                 NavigationLink {
-                    RewardRedemptionView(reward: reward, currentBalance: balance, config: config, formspree: formspree, pointsStore: pointsStore)
+                    RewardRedemptionView(
+                        reward: reward,
+                        currentBalance: availableBalance,
+                        config: config,
+                        formspree: formspree,
+                        pointsStore: pointsStore
+                    )
                 } label: {
                     PrimaryButtonLabel(title: "Redeem Reward", systemImage: AppSymbol.rewards)
                 }
                 .buttonStyle(PrimaryButtonStyle())
-                .disabled(!RewardRedemptionRules.canRedeem(reward: reward, balance: balance))
+                .disabled(!RewardRedemptionRules.canRedeem(reward: reward, balance: availableBalance))
+
+                if availableBalance + pendingBalance >= reward.pointsCost, !RewardRedemptionRules.canRedeem(reward: reward, balance: availableBalance) {
+                    Text("You have pending points that aren’t available yet.")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                }
 
                 Spacer()
             }

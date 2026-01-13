@@ -21,10 +21,19 @@ struct EmergencyView: View {
                             .font(.footnote)
                             .foregroundStyle(.secondary)
 
+                        let phoneURL = config.emergencyPhoneURL ?? config.phoneURL
+
                         PrimaryButton(title: "Call Now", systemImage: AppSymbol.call) {
-                            if let url = config.phoneURL {
-                                openURL(url)
+                            if let phoneURL {
+                                openURL(phoneURL)
                             }
+                        }
+                        .disabled(phoneURL == nil)
+
+                        if phoneURL == nil {
+                            Text("Emergency phone not configured.")
+                                .font(.caption)
+                                .foregroundStyle(.secondary)
                         }
                     }
                 }
@@ -32,7 +41,7 @@ struct EmergencyView: View {
                 GlassCard {
                     VStack(alignment: .leading, spacing: 12) {
                         SectionHeader(title: "Directions", systemImage: AppSymbol.directions)
-                        Text(config.address)
+                        Text(config.addressDisplay)
                             .font(.subheadline)
                             .foregroundStyle(.secondary)
 
@@ -55,10 +64,16 @@ struct EmergencyView: View {
                 GlassCard {
                     VStack(alignment: .leading, spacing: 12) {
                         SectionHeader(title: "Office Hours", systemImage: AppSymbol.hours)
-                        ForEach(config.practiceHours, id: \.self) { hour in
-                            Text(hour)
+                        if config.practiceHours.isEmpty {
+                            Text("Hours not configured")
                                 .font(.subheadline)
                                 .foregroundStyle(.secondary)
+                        } else {
+                            ForEach(config.practiceHours, id: \.self) { hour in
+                                Text(hour)
+                                    .font(.subheadline)
+                                    .foregroundStyle(.secondary)
+                            }
                         }
                     }
                 }

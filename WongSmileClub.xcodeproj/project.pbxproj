@@ -7,16 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03063592BB59EEB498C447EE /* ReportConcernViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B898F4682FAD30844665C3C /* ReportConcernViewModel.swift */; };
 		088FBFDD85449BA6E32E4385 /* WongSmileClubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F868C51B47979CF78A9FDEF4 /* WongSmileClubUITests.swift */; };
 		0968605382CC018BCDF0E6C4 /* AppDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7907E46E9BDD2D0DA4ADFDB /* AppDataStore.swift */; };
+		09BBA45DA7E14D7C94D4F51A /* PointsHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06111283FAF5AC32B3247885 /* PointsHistoryView.swift */; };
+		1561A68B92AE31361E28D32C /* RemoteContentServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00150CD54ED31CE1C45DB4AD /* RemoteContentServiceTests.swift */; };
+		1A0C22EF8F6199940E1BA0EE /* EducationTopics.json in Resources */ = {isa = PBXBuildFile; fileRef = 34B284ED1F4E80B07C01F4BF /* EducationTopics.json */; };
 		1BCF9F709A919B610692C132 /* OfferCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB98A601B5CD2E7C5C239010 /* OfferCardView.swift */; };
+		1BDAD5986DE1AEFDDCEAB119 /* RemoteContentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41276466491245425E19313A /* RemoteContentService.swift */; };
 		2175BC906D3FD61AD68C7F00 /* RewardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D91A285A5BA896C3BE9B273 /* RewardsView.swift */; };
+		229C7BA015188961EC5BC152 /* SpecialistReferralRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27678212079B4F3D1D7C52EB /* SpecialistReferralRequestView.swift */; };
 		2C51287E6AC6E98B22DDCFED /* AppBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3D81E81562ED508D1F29AA /* AppBackground.swift */; };
 		2C8ED6A55BFF2CCA4FC4214D /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F583B1852443246FF1AE30 /* PrimaryButton.swift */; };
 		2D5DCF931E8D3A44AC250778 /* AppointmentRequestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C158D23AA92A57067247F01 /* AppointmentRequestViewModel.swift */; };
 		30095646A3A345D0830F28D3 /* DateFormatter+Short.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1611DB75556D1E78E6205D /* DateFormatter+Short.swift */; };
+		30532C29358BBA066513D11A /* RewardsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A15AB3D9A3D3BA72907AD8E /* RewardsContentView.swift */; };
 		39BDEA8E297952155DC2F02A /* BundleDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B54E45DA3D992BBC888176 /* BundleDataService.swift */; };
+		4178AC94B8FAE94EE36CF658 /* PracticeInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DA34D2B6BDCB1BDA65681A /* PracticeInfoView.swift */; };
 		41BF318064096B9228A97669 /* PointsBalanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D928D5CB0E024E46DA40A /* PointsBalanceTests.swift */; };
+		45272D7011F1187F6220716B /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98CF9723DAB7873C60BC71F /* AboutView.swift */; };
 		486444F7C844916F684E9341 /* FormspreeClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D65BF920E4C0A632943C433 /* FormspreeClientTests.swift */; };
 		486F31D5EA0B2C11BE438C26 /* GlassCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E164185BEFE676DDFE2F2553 /* GlassCard.swift */; };
 		4E736CDE6C61E688294627A9 /* ReferralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3CFBA68A8FD4EBBFDB6BFC /* ReferralView.swift */; };
@@ -24,10 +33,14 @@
 		54ED0918FA3A894252C702D8 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E0D56083D8329D312E2E83 /* SafariView.swift */; };
 		553C2341283D114FD30AB2D1 /* InstagramTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A9BAFEBBACDCA40BCB4B37 /* InstagramTagView.swift */; };
 		5ADF228A1663BC63701AF06B /* OfferDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91363F2C8497344D7B406E54 /* OfferDetailView.swift */; };
+		5BE53189DCC6E577BA102D91 /* SpecialistReferralRequestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761F9799D0515FE23BD29B9F /* SpecialistReferralRequestViewModel.swift */; };
+		5CD19A5CCAA403518CAA1CB4 /* EducationHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCFE3A6EEF260C254779723 /* EducationHomeView.swift */; };
 		5EB7A11C69545B66F54EE55A /* ReferralViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0059DD39375DE7EB96E3AED0 /* ReferralViewModel.swift */; };
 		60866FF24A708AA6519426BC /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F75F94485703D4CA3C05F52 /* AppConfig.swift */; };
 		718C31FDA32CB56BBA414BC8 /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F36927783158F688A21622 /* BookView.swift */; };
 		7264636D99B9454D361B56AF /* RewardRedemptionRulesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E178C15FB13568E71426284B /* RewardRedemptionRulesTests.swift */; };
+		73F1B27C8ED02AE7365932D6 /* OffersPreviewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53409DB0B173B66F8601F3C1 /* OffersPreviewRow.swift */; };
+		793A70ABF85AA370918C04ED /* Specialists.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E10944813F7FC4D01DB5EBD /* Specialists.json */; };
 		7A4985924FE3C2772886C05D /* AppointmentRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74FB06B4A92D8B774A788B6 /* AppointmentRequestView.swift */; };
 		7A4F1AA8184DFDB66E261E6A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D83D996610E099D39E78E2 /* ProfileView.swift */; };
 		7A6A1B71D19C6F4115657FDE /* EarnTaskCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7748FD7120D5B6A359133AE /* EarnTaskCard.swift */; };
@@ -35,31 +48,53 @@
 		7D554622F61321B1153776FE /* PointsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6802B24F9029673E161C01E2 /* PointsStore.swift */; };
 		7E5CDED3BE4EAF0FC78DDAE1 /* Reward.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62E08822AF97907669785C0 /* Reward.swift */; };
 		7ECC5E786DBCA972E8CF7EE5 /* WongSmileClubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9205FBFB0E36D8AD186D10 /* WongSmileClubApp.swift */; };
+		7FF26E028A8E2488BD13B625 /* Specialist.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8309CA7F581C04F9E740EB /* Specialist.swift */; };
 		825E42ACC448A3159DBE3494 /* RewardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661B2C6020C654EB171B51F7 /* RewardDetailView.swift */; };
 		86F9A7573A4152E4801A1506 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51359546BD6620188F8E5831 /* Assets.xcassets */; };
+		8817B7E87A73C4FB89DCE5AE /* ReportConcernView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84104238C74A71EF877CB8EA /* ReportConcernView.swift */; };
 		896C3522AA19A4A73860AC32 /* RewardRedemptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1042A32FBC9112BDEDEB07EE /* RewardRedemptionViewModel.swift */; };
+		8EAEE3E8877EF0B89DB204DA /* EducationTopic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0433458460A8BB02B390FD7 /* EducationTopic.swift */; };
 		8F809706A868EE9A878F4132 /* EmergencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26A15ABED1F7D2562E694F8 /* EmergencyView.swift */; };
 		916F3E49C908048F071BD8A2 /* PointsTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2FDCBB42A5CF21DD0E9410 /* PointsTransaction.swift */; };
+		91B3906E6A0CA4787B186CE2 /* SpecialistDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554BC10E16B2E96CDDA508EE /* SpecialistDetailView.swift */; };
+		941BB8B044E2897732FEF11B /* SupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E54D61F0281CA6D6E42266 /* SupportView.swift */; };
 		94F02F1DAA41605DFB4B75FF /* SubmissionStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C092597B48CD22C994914D8 /* SubmissionStatus.swift */; };
 		95EB5DEB3467EB446184B46D /* AppSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAD1C40B69AED4D8D21A6B1 /* AppSymbols.swift */; };
 		9B38428ED91DC464EDA973A3 /* RewardCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC17D80E711A428A4778158 /* RewardCardView.swift */; };
 		9F4290042D9AC9E63F891B4A /* Offers.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B9439D07D10F25FE4DB91CB /* Offers.json */; };
 		A08ECE06768E73E5BF823753 /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A5FBCD9954BCD7AD59CD46 /* SectionHeader.swift */; };
+		A366C5AFA43E793FBFDA16C2 /* EarnContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8740C738310B850D8A4D6279 /* EarnContentView.swift */; };
+		A503103AE65D3A4F536AA1FD /* LegalMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8FC019267A7A285FE6F41 /* LegalMenuView.swift */; };
+		AFC5DC6445044E29672281D6 /* CareDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D13552DF766B043499FD9D /* CareDataTests.swift */; };
 		B01B1BC544E4251D5309492B /* FeedbackSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE71B86E7CDEF2631A813DB /* FeedbackSuccessView.swift */; };
+		B45E9E583D48D943AA1328D3 /* ClubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CDCEA88AB8003662EC3B60 /* ClubView.swift */; };
 		B45F99CBAF56D91F12F6C6A8 /* LegalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF2020CBD5777DF7170B71 /* LegalView.swift */; };
 		B513D4DFFA02C973859BDB4C /* MediaSubmissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64462A3734A0762588F51C3 /* MediaSubmissionView.swift */; };
 		B7AFDFFECE2B99AB61BB8B4F /* MediaSubmissionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA2103EB569479982BE57A2 /* MediaSubmissionViewModel.swift */; };
 		BD0D1E55D51C2C446E1182E9 /* EarnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A51184C6C9F9F32EA13F2A /* EarnView.swift */; };
+		C004ED13A1115AFB8B5E0A32 /* PointsProgressCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D33B2922D3E3DEB1DD9EAB0 /* PointsProgressCard.swift */; };
+		C0576486878828FD7EF9B301 /* SpecialistsDirectoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BA84C7D6A24E4EC8348BA5 /* SpecialistsDirectoryView.swift */; };
+		C53834C24346E755DC2122B9 /* EducationTopicDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09653DF841B0B830565A17F4 /* EducationTopicDetailView.swift */; };
+		C5A49B08DDA0B0422278A570 /* CommunityGuidelinesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF757FDF0C748829F314CAD /* CommunityGuidelinesView.swift */; };
 		C79F974F0134932FBD478139 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB798E09DD4EB1185CAF3018 /* Offer.swift */; };
 		C9CE04FD7D3E16A41A185C08 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4A91E3C3C2C506F6CB88AC /* RootTabView.swift */; };
 		CEA83B032E26241062F3F110 /* PointsPill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB6CCBA510B406CD5DB0FA2 /* PointsPill.swift */; };
 		D074B97C7F137F9318D27641 /* OffersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D9E68BE4DF6E89E6CB55A9 /* OffersView.swift */; };
+		D3974009EB0BF8EC1C2B6D10 /* RecallServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA4899401C6CD23EBE74083 /* RecallServiceTests.swift */; };
+		D713575FDB729447948FC5C0 /* MyQuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D7F140FFF86F4268AD2728 /* MyQuestionsView.swift */; };
 		D79DD210AFDB509490C312A0 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7630B6AA566D4E4DDD99F4C5 /* UserProfile.swift */; };
+		D8B9C7598A42B11B58C22C1B /* CareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6F8594B6507ED82255F8AD /* CareView.swift */; };
 		DC02729CC46502784D6E5E97 /* Rewards.json in Resources */ = {isa = PBXBuildFile; fileRef = AB407931C4865744C3A3559E /* Rewards.json */; };
 		DCC81FE7E896DC639A3C2BED /* RewardRedemptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203BABF274CA8D8DF7E3F24B /* RewardRedemptionView.swift */; };
 		E21A01BE4642D81F0B51587D /* FormspreeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD0C3E6CE21168BFE3506C0 /* FormspreeClient.swift */; };
+		E3141B5E24A847D82052A36A /* SpecialistMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9269D7F9D9DFE56C1FF266 /* SpecialistMatcher.swift */; };
 		EC555582203BBE4DCF705236 /* SubmissionSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0EFE38D10983A463187FD2 /* SubmissionSuccessView.swift */; };
+		EF2B6CC2D4CE3F1CCE5014AB /* CareComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56524C0F507FFB5C3D074385 /* CareComponents.swift */; };
 		F2971275B3F0DF24B40CC88B /* FeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3633AD8C55818F15A68B09 /* FeedbackView.swift */; };
+		F40CBC4FB0EB3AEF41F5559A /* ReviewRewardPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E126252F039F2C4080961D /* ReviewRewardPolicy.swift */; };
+		F8429F365279F39D493C418B /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C8888E31D690A82A206655 /* MoreView.swift */; };
+		F89F225111A125AA5560089A /* RecallService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F5DC1D0D37B5A94608D090 /* RecallService.swift */; };
+		FA2F3FB0CB2365FDD8189E29 /* PatientQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B14CBFC6C160695BECFEDB /* PatientQuestion.swift */; };
 		FF6780E91A4D4E3A4170DC86 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD3A57531C576B578F746C3 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
@@ -81,60 +116,95 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00150CD54ED31CE1C45DB4AD /* RemoteContentServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteContentServiceTests.swift; sourceTree = "<group>"; };
 		0059DD39375DE7EB96E3AED0 /* ReferralViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferralViewModel.swift; sourceTree = "<group>"; };
 		050B8C7D29D795A7A86A5123 /* WongSmileClubTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = WongSmileClubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06111283FAF5AC32B3247885 /* PointsHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsHistoryView.swift; sourceTree = "<group>"; };
+		06BA84C7D6A24E4EC8348BA5 /* SpecialistsDirectoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialistsDirectoryView.swift; sourceTree = "<group>"; };
+		09653DF841B0B830565A17F4 /* EducationTopicDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationTopicDetailView.swift; sourceTree = "<group>"; };
+		0D33B2922D3E3DEB1DD9EAB0 /* PointsProgressCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsProgressCard.swift; sourceTree = "<group>"; };
 		0D65BF920E4C0A632943C433 /* FormspreeClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormspreeClientTests.swift; sourceTree = "<group>"; };
 		0F75F94485703D4CA3C05F52 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
 		1042A32FBC9112BDEDEB07EE /* RewardRedemptionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardRedemptionViewModel.swift; sourceTree = "<group>"; };
 		1B3CFBA68A8FD4EBBFDB6BFC /* ReferralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferralView.swift; sourceTree = "<group>"; };
 		1C158D23AA92A57067247F01 /* AppointmentRequestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentRequestViewModel.swift; sourceTree = "<group>"; };
+		1E10944813F7FC4D01DB5EBD /* Specialists.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Specialists.json; sourceTree = "<group>"; };
 		203BABF274CA8D8DF7E3F24B /* RewardRedemptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardRedemptionView.swift; sourceTree = "<group>"; };
+		27678212079B4F3D1D7C52EB /* SpecialistReferralRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialistReferralRequestView.swift; sourceTree = "<group>"; };
 		2F6CC3EBC9185E951F0A5338 /* WongSmileClub.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = WongSmileClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B284ED1F4E80B07C01F4BF /* EducationTopics.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = EducationTopics.json; sourceTree = "<group>"; };
 		34F36927783158F688A21622 /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
 		37D83D996610E099D39E78E2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		3D91A285A5BA896C3BE9B273 /* RewardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsView.swift; sourceTree = "<group>"; };
 		3DA2103EB569479982BE57A2 /* MediaSubmissionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaSubmissionViewModel.swift; sourceTree = "<group>"; };
+		41276466491245425E19313A /* RemoteContentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteContentService.swift; sourceTree = "<group>"; };
+		44CDCEA88AB8003662EC3B60 /* ClubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubView.swift; sourceTree = "<group>"; };
 		49A51184C6C9F9F32EA13F2A /* EarnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarnView.swift; sourceTree = "<group>"; };
 		4A2FDCBB42A5CF21DD0E9410 /* PointsTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsTransaction.swift; sourceTree = "<group>"; };
 		4D1611DB75556D1E78E6205D /* DateFormatter+Short.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Short.swift"; sourceTree = "<group>"; };
 		51359546BD6620188F8E5831 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53409DB0B173B66F8601F3C1 /* OffersPreviewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersPreviewRow.swift; sourceTree = "<group>"; };
+		54B14CBFC6C160695BECFEDB /* PatientQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientQuestion.swift; sourceTree = "<group>"; };
+		554BC10E16B2E96CDDA508EE /* SpecialistDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialistDetailView.swift; sourceTree = "<group>"; };
+		56524C0F507FFB5C3D074385 /* CareComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareComponents.swift; sourceTree = "<group>"; };
 		58E0D56083D8329D312E2E83 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		5B9439D07D10F25FE4DB91CB /* Offers.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Offers.json; sourceTree = "<group>"; };
+		5DCFE3A6EEF260C254779723 /* EducationHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationHomeView.swift; sourceTree = "<group>"; };
 		661B2C6020C654EB171B51F7 /* RewardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardDetailView.swift; sourceTree = "<group>"; };
 		6802B24F9029673E161C01E2 /* PointsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsStore.swift; sourceTree = "<group>"; };
 		6AB6CCBA510B406CD5DB0FA2 /* PointsPill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsPill.swift; sourceTree = "<group>"; };
+		6DA4899401C6CD23EBE74083 /* RecallServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecallServiceTests.swift; sourceTree = "<group>"; };
 		6FC17D80E711A428A4778158 /* RewardCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardCardView.swift; sourceTree = "<group>"; };
 		75A5FBCD9954BCD7AD59CD46 /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		761F9799D0515FE23BD29B9F /* SpecialistReferralRequestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialistReferralRequestViewModel.swift; sourceTree = "<group>"; };
 		7630B6AA566D4E4DDD99F4C5 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		76F583B1852443246FF1AE30 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		77B54E45DA3D992BBC888176 /* BundleDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleDataService.swift; sourceTree = "<group>"; };
 		7FD0C3E6CE21168BFE3506C0 /* FormspreeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormspreeClient.swift; sourceTree = "<group>"; };
+		81D7F140FFF86F4268AD2728 /* MyQuestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyQuestionsView.swift; sourceTree = "<group>"; };
+		84104238C74A71EF877CB8EA /* ReportConcernView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportConcernView.swift; sourceTree = "<group>"; };
 		84343D37DC5F55D70C0C46D2 /* WongSmileClubUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = WongSmileClubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8740C738310B850D8A4D6279 /* EarnContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarnContentView.swift; sourceTree = "<group>"; };
+		8A15AB3D9A3D3BA72907AD8E /* RewardsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsContentView.swift; sourceTree = "<group>"; };
 		8DD3A57531C576B578F746C3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		8F0EFE38D10983A463187FD2 /* SubmissionSuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmissionSuccessView.swift; sourceTree = "<group>"; };
 		910CFDAAD0493ADD7BE427A8 /* PointsValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsValues.swift; sourceTree = "<group>"; };
 		91363F2C8497344D7B406E54 /* OfferDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailView.swift; sourceTree = "<group>"; };
+		96D13552DF766B043499FD9D /* CareDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareDataTests.swift; sourceTree = "<group>"; };
+		9B898F4682FAD30844665C3C /* ReportConcernViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportConcernViewModel.swift; sourceTree = "<group>"; };
 		9C092597B48CD22C994914D8 /* SubmissionStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmissionStatus.swift; sourceTree = "<group>"; };
 		A26A15ABED1F7D2562E694F8 /* EmergencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyView.swift; sourceTree = "<group>"; };
 		A62E08822AF97907669785C0 /* Reward.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reward.swift; sourceTree = "<group>"; };
 		A9D9E68BE4DF6E89E6CB55A9 /* OffersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersView.swift; sourceTree = "<group>"; };
 		AB407931C4865744C3A3559E /* Rewards.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Rewards.json; sourceTree = "<group>"; };
 		AB98A601B5CD2E7C5C239010 /* OfferCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferCardView.swift; sourceTree = "<group>"; };
+		ACC8FC019267A7A285FE6F41 /* LegalMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalMenuView.swift; sourceTree = "<group>"; };
 		AD9205FBFB0E36D8AD186D10 /* WongSmileClubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WongSmileClubApp.swift; sourceTree = "<group>"; };
 		B1A9BAFEBBACDCA40BCB4B37 /* InstagramTagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramTagView.swift; sourceTree = "<group>"; };
+		B2C8888E31D690A82A206655 /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
 		B6354D1BC89044069F147998 /* FeedbackViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewModel.swift; sourceTree = "<group>"; };
 		B64462A3734A0762588F51C3 /* MediaSubmissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaSubmissionView.swift; sourceTree = "<group>"; };
 		B7907E46E9BDD2D0DA4ADFDB /* AppDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataStore.swift; sourceTree = "<group>"; };
 		BCE71B86E7CDEF2631A813DB /* FeedbackSuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackSuccessView.swift; sourceTree = "<group>"; };
 		BF5D928D5CB0E024E46DA40A /* PointsBalanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsBalanceTests.swift; sourceTree = "<group>"; };
+		C1DA34D2B6BDCB1BDA65681A /* PracticeInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeInfoView.swift; sourceTree = "<group>"; };
+		C6F5DC1D0D37B5A94608D090 /* RecallService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecallService.swift; sourceTree = "<group>"; };
 		C74FB06B4A92D8B774A788B6 /* AppointmentRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentRequestView.swift; sourceTree = "<group>"; };
 		CA3D81E81562ED508D1F29AA /* AppBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBackground.swift; sourceTree = "<group>"; };
+		CA6F8594B6507ED82255F8AD /* CareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareView.swift; sourceTree = "<group>"; };
 		CB798E09DD4EB1185CAF3018 /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
+		CC8309CA7F581C04F9E740EB /* Specialist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Specialist.swift; sourceTree = "<group>"; };
 		CF4A91E3C3C2C506F6CB88AC /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		DC9269D7F9D9DFE56C1FF266 /* SpecialistMatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialistMatcher.swift; sourceTree = "<group>"; };
 		DEAD1C40B69AED4D8D21A6B1 /* AppSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSymbols.swift; sourceTree = "<group>"; };
+		E0433458460A8BB02B390FD7 /* EducationTopic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationTopic.swift; sourceTree = "<group>"; };
 		E164185BEFE676DDFE2F2553 /* GlassCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassCard.swift; sourceTree = "<group>"; };
 		E178C15FB13568E71426284B /* RewardRedemptionRulesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardRedemptionRulesTests.swift; sourceTree = "<group>"; };
+		E2E54D61F0281CA6D6E42266 /* SupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportView.swift; sourceTree = "<group>"; };
 		E4B8787430F795B68185CCCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E98CF9723DAB7873C60BC71F /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		EBF757FDF0C748829F314CAD /* CommunityGuidelinesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityGuidelinesView.swift; sourceTree = "<group>"; };
+		F5E126252F039F2C4080961D /* ReviewRewardPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewRewardPolicy.swift; sourceTree = "<group>"; };
 		F7748FD7120D5B6A359133AE /* EarnTaskCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarnTaskCard.swift; sourceTree = "<group>"; };
 		F868C51B47979CF78A9FDEF4 /* WongSmileClubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WongSmileClubUITests.swift; sourceTree = "<group>"; };
 		FA3633AD8C55818F15A68B09 /* FeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackView.swift; sourceTree = "<group>"; };
@@ -142,6 +212,16 @@
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		1E6FDC09B07995AEE6D248A4 /* Club */ = {
+			isa = PBXGroup;
+			children = (
+				44CDCEA88AB8003662EC3B60 /* ClubView.swift */,
+				8740C738310B850D8A4D6279 /* EarnContentView.swift */,
+				8A15AB3D9A3D3BA72907AD8E /* RewardsContentView.swift */,
+			);
+			path = Club;
+			sourceTree = "<group>";
+		};
 		2162F0A89B4B6EDFF08F382C /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,7 +229,9 @@
 				B6354D1BC89044069F147998 /* FeedbackViewModel.swift */,
 				3DA2103EB569479982BE57A2 /* MediaSubmissionViewModel.swift */,
 				0059DD39375DE7EB96E3AED0 /* ReferralViewModel.swift */,
+				9B898F4682FAD30844665C3C /* ReportConcernViewModel.swift */,
 				1042A32FBC9112BDEDEB07EE /* RewardRedemptionViewModel.swift */,
+				761F9799D0515FE23BD29B9F /* SpecialistReferralRequestViewModel.swift */,
 				9C092597B48CD22C994914D8 /* SubmissionStatus.swift */,
 			);
 			path = ViewModels;
@@ -166,9 +248,11 @@
 		5C7012F2974997C2774CFF0F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				34B284ED1F4E80B07C01F4BF /* EducationTopics.json */,
 				E4B8787430F795B68185CCCF /* Info.plist */,
 				5B9439D07D10F25FE4DB91CB /* Offers.json */,
 				AB407931C4865744C3A3559E /* Rewards.json */,
+				1E10944813F7FC4D01DB5EBD /* Specialists.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -198,6 +282,10 @@
 				3D91A285A5BA896C3BE9B273 /* RewardsView.swift */,
 				58E0D56083D8329D312E2E83 /* SafariView.swift */,
 				8F0EFE38D10983A463187FD2 /* SubmissionSuccessView.swift */,
+				F89394B7D95960C2D3526164 /* Care */,
+				1E6FDC09B07995AEE6D248A4 /* Club */,
+				C27B87647765E02E8F3EAB95 /* More */,
+				8CBCFD3A7846D6CF91721734 /* Shared */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -226,10 +314,14 @@
 		821F29FE99EE02B720B846DF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E0433458460A8BB02B390FD7 /* EducationTopic.swift */,
 				CB798E09DD4EB1185CAF3018 /* Offer.swift */,
+				54B14CBFC6C160695BECFEDB /* PatientQuestion.swift */,
 				4A2FDCBB42A5CF21DD0E9410 /* PointsTransaction.swift */,
 				910CFDAAD0493ADD7BE427A8 /* PointsValues.swift */,
+				F5E126252F039F2C4080961D /* ReviewRewardPolicy.swift */,
 				A62E08822AF97907669785C0 /* Reward.swift */,
+				CC8309CA7F581C04F9E740EB /* Specialist.swift */,
 				7630B6AA566D4E4DDD99F4C5 /* UserProfile.swift */,
 			);
 			path = Models;
@@ -245,6 +337,15 @@
 			path = App;
 			sourceTree = "<group>";
 		};
+		8CBCFD3A7846D6CF91721734 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				53409DB0B173B66F8601F3C1 /* OffersPreviewRow.swift */,
+				0D33B2922D3E3DEB1DD9EAB0 /* PointsProgressCard.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		A3BD9CFBCC7B141B83D40ED3 /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -252,6 +353,9 @@
 				77B54E45DA3D992BBC888176 /* BundleDataService.swift */,
 				7FD0C3E6CE21168BFE3506C0 /* FormspreeClient.swift */,
 				6802B24F9029673E161C01E2 /* PointsStore.swift */,
+				C6F5DC1D0D37B5A94608D090 /* RecallService.swift */,
+				41276466491245425E19313A /* RemoteContentService.swift */,
+				DC9269D7F9D9DFE56C1FF266 /* SpecialistMatcher.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -282,6 +386,21 @@
 			path = WongSmileClub;
 			sourceTree = "<group>";
 		};
+		C27B87647765E02E8F3EAB95 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				E98CF9723DAB7873C60BC71F /* AboutView.swift */,
+				EBF757FDF0C748829F314CAD /* CommunityGuidelinesView.swift */,
+				ACC8FC019267A7A285FE6F41 /* LegalMenuView.swift */,
+				B2C8888E31D690A82A206655 /* MoreView.swift */,
+				06111283FAF5AC32B3247885 /* PointsHistoryView.swift */,
+				C1DA34D2B6BDCB1BDA65681A /* PracticeInfoView.swift */,
+				84104238C74A71EF877CB8EA /* ReportConcernView.swift */,
+				E2E54D61F0281CA6D6E42266 /* SupportView.swift */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
 		C3A27C1624979E55F4530479 = {
 			isa = PBXGroup;
 			children = (
@@ -295,11 +414,29 @@
 		E8529B4CFCF58F55576CF6FE /* WongSmileClubTests */ = {
 			isa = PBXGroup;
 			children = (
+				96D13552DF766B043499FD9D /* CareDataTests.swift */,
 				0D65BF920E4C0A632943C433 /* FormspreeClientTests.swift */,
 				BF5D928D5CB0E024E46DA40A /* PointsBalanceTests.swift */,
+				6DA4899401C6CD23EBE74083 /* RecallServiceTests.swift */,
+				00150CD54ED31CE1C45DB4AD /* RemoteContentServiceTests.swift */,
 				E178C15FB13568E71426284B /* RewardRedemptionRulesTests.swift */,
 			);
 			path = WongSmileClubTests;
+			sourceTree = "<group>";
+		};
+		F89394B7D95960C2D3526164 /* Care */ = {
+			isa = PBXGroup;
+			children = (
+				56524C0F507FFB5C3D074385 /* CareComponents.swift */,
+				CA6F8594B6507ED82255F8AD /* CareView.swift */,
+				5DCFE3A6EEF260C254779723 /* EducationHomeView.swift */,
+				09653DF841B0B830565A17F4 /* EducationTopicDetailView.swift */,
+				81D7F140FFF86F4268AD2728 /* MyQuestionsView.swift */,
+				554BC10E16B2E96CDDA508EE /* SpecialistDetailView.swift */,
+				27678212079B4F3D1D7C52EB /* SpecialistReferralRequestView.swift */,
+				06BA84C7D6A24E4EC8348BA5 /* SpecialistsDirectoryView.swift */,
+			);
+			path = Care;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -410,8 +547,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				86F9A7573A4152E4801A1506 /* Assets.xcassets in Resources */,
+				1A0C22EF8F6199940E1BA0EE /* EducationTopics.json in Resources */,
 				9F4290042D9AC9E63F891B4A /* Offers.json in Resources */,
 				DC02729CC46502784D6E5E97 /* Rewards.json in Resources */,
+				793A70ABF85AA370918C04ED /* Specialists.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,8 +561,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFC5DC6445044E29672281D6 /* CareDataTests.swift in Sources */,
 				486444F7C844916F684E9341 /* FormspreeClientTests.swift in Sources */,
 				41BF318064096B9228A97669 /* PointsBalanceTests.swift in Sources */,
+				D3974009EB0BF8EC1C2B6D10 /* RecallServiceTests.swift in Sources */,
+				1561A68B92AE31361E28D32C /* RemoteContentServiceTests.swift in Sources */,
 				7264636D99B9454D361B56AF /* RewardRedemptionRulesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +574,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45272D7011F1187F6220716B /* AboutView.swift in Sources */,
 				2C51287E6AC6E98B22DDCFED /* AppBackground.swift in Sources */,
 				60866FF24A708AA6519426BC /* AppConfig.swift in Sources */,
 				0968605382CC018BCDF0E6C4 /* AppDataStore.swift in Sources */,
@@ -440,9 +583,17 @@
 				2D5DCF931E8D3A44AC250778 /* AppointmentRequestViewModel.swift in Sources */,
 				718C31FDA32CB56BBA414BC8 /* BookView.swift in Sources */,
 				39BDEA8E297952155DC2F02A /* BundleDataService.swift in Sources */,
+				EF2B6CC2D4CE3F1CCE5014AB /* CareComponents.swift in Sources */,
+				D8B9C7598A42B11B58C22C1B /* CareView.swift in Sources */,
+				B45E9E583D48D943AA1328D3 /* ClubView.swift in Sources */,
+				C5A49B08DDA0B0422278A570 /* CommunityGuidelinesView.swift in Sources */,
 				30095646A3A345D0830F28D3 /* DateFormatter+Short.swift in Sources */,
+				A366C5AFA43E793FBFDA16C2 /* EarnContentView.swift in Sources */,
 				7A6A1B71D19C6F4115657FDE /* EarnTaskCard.swift in Sources */,
 				BD0D1E55D51C2C446E1182E9 /* EarnView.swift in Sources */,
+				5CD19A5CCAA403518CAA1CB4 /* EducationHomeView.swift in Sources */,
+				8EAEE3E8877EF0B89DB204DA /* EducationTopic.swift in Sources */,
+				C53834C24346E755DC2122B9 /* EducationTopicDetailView.swift in Sources */,
 				8F809706A868EE9A878F4132 /* EmergencyView.swift in Sources */,
 				B01B1BC544E4251D5309492B /* FeedbackSuccessView.swift in Sources */,
 				F2971275B3F0DF24B40CC88B /* FeedbackView.swift in Sources */,
@@ -451,32 +602,53 @@
 				486F31D5EA0B2C11BE438C26 /* GlassCard.swift in Sources */,
 				FF6780E91A4D4E3A4170DC86 /* HomeView.swift in Sources */,
 				553C2341283D114FD30AB2D1 /* InstagramTagView.swift in Sources */,
+				A503103AE65D3A4F536AA1FD /* LegalMenuView.swift in Sources */,
 				B45F99CBAF56D91F12F6C6A8 /* LegalView.swift in Sources */,
 				B513D4DFFA02C973859BDB4C /* MediaSubmissionView.swift in Sources */,
 				B7AFDFFECE2B99AB61BB8B4F /* MediaSubmissionViewModel.swift in Sources */,
+				F8429F365279F39D493C418B /* MoreView.swift in Sources */,
+				D713575FDB729447948FC5C0 /* MyQuestionsView.swift in Sources */,
 				C79F974F0134932FBD478139 /* Offer.swift in Sources */,
 				1BCF9F709A919B610692C132 /* OfferCardView.swift in Sources */,
 				5ADF228A1663BC63701AF06B /* OfferDetailView.swift in Sources */,
+				73F1B27C8ED02AE7365932D6 /* OffersPreviewRow.swift in Sources */,
 				D074B97C7F137F9318D27641 /* OffersView.swift in Sources */,
+				FA2F3FB0CB2365FDD8189E29 /* PatientQuestion.swift in Sources */,
+				09BBA45DA7E14D7C94D4F51A /* PointsHistoryView.swift in Sources */,
 				CEA83B032E26241062F3F110 /* PointsPill.swift in Sources */,
+				C004ED13A1115AFB8B5E0A32 /* PointsProgressCard.swift in Sources */,
 				7D554622F61321B1153776FE /* PointsStore.swift in Sources */,
 				916F3E49C908048F071BD8A2 /* PointsTransaction.swift in Sources */,
 				4EEABF9A31E8A2724CCB33F3 /* PointsValues.swift in Sources */,
+				4178AC94B8FAE94EE36CF658 /* PracticeInfoView.swift in Sources */,
 				2C8ED6A55BFF2CCA4FC4214D /* PrimaryButton.swift in Sources */,
 				7A4F1AA8184DFDB66E261E6A /* ProfileView.swift in Sources */,
+				F89F225111A125AA5560089A /* RecallService.swift in Sources */,
 				4E736CDE6C61E688294627A9 /* ReferralView.swift in Sources */,
 				5EB7A11C69545B66F54EE55A /* ReferralViewModel.swift in Sources */,
+				1BDAD5986DE1AEFDDCEAB119 /* RemoteContentService.swift in Sources */,
+				8817B7E87A73C4FB89DCE5AE /* ReportConcernView.swift in Sources */,
+				03063592BB59EEB498C447EE /* ReportConcernViewModel.swift in Sources */,
+				F40CBC4FB0EB3AEF41F5559A /* ReviewRewardPolicy.swift in Sources */,
 				7E5CDED3BE4EAF0FC78DDAE1 /* Reward.swift in Sources */,
 				9B38428ED91DC464EDA973A3 /* RewardCardView.swift in Sources */,
 				825E42ACC448A3159DBE3494 /* RewardDetailView.swift in Sources */,
 				DCC81FE7E896DC639A3C2BED /* RewardRedemptionView.swift in Sources */,
 				896C3522AA19A4A73860AC32 /* RewardRedemptionViewModel.swift in Sources */,
+				30532C29358BBA066513D11A /* RewardsContentView.swift in Sources */,
 				2175BC906D3FD61AD68C7F00 /* RewardsView.swift in Sources */,
 				C9CE04FD7D3E16A41A185C08 /* RootTabView.swift in Sources */,
 				54ED0918FA3A894252C702D8 /* SafariView.swift in Sources */,
 				A08ECE06768E73E5BF823753 /* SectionHeader.swift in Sources */,
+				7FF26E028A8E2488BD13B625 /* Specialist.swift in Sources */,
+				91B3906E6A0CA4787B186CE2 /* SpecialistDetailView.swift in Sources */,
+				E3141B5E24A847D82052A36A /* SpecialistMatcher.swift in Sources */,
+				229C7BA015188961EC5BC152 /* SpecialistReferralRequestView.swift in Sources */,
+				5BE53189DCC6E577BA102D91 /* SpecialistReferralRequestViewModel.swift in Sources */,
+				C0576486878828FD7EF9B301 /* SpecialistsDirectoryView.swift in Sources */,
 				94F02F1DAA41605DFB4B75FF /* SubmissionStatus.swift in Sources */,
 				EC555582203BBE4DCF705236 /* SubmissionSuccessView.swift in Sources */,
+				941BB8B044E2897732FEF11B /* SupportView.swift in Sources */,
 				D79DD210AFDB509490C312A0 /* UserProfile.swift in Sources */,
 				7ECC5E786DBCA972E8CF7EE5 /* WongSmileClubApp.swift in Sources */,
 			);
@@ -510,6 +682,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -526,6 +699,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -669,6 +843,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -685,6 +860,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -3,6 +3,7 @@ import SwiftData
 
 struct AppointmentRequestView: View {
     @Query private var profiles: [UserProfile]
+    @Environment(\.modelContext) private var modelContext
     @StateObject private var viewModel: AppointmentRequestViewModel
     @State private var showSuccess = false
     @State private var successMessage = ""
@@ -88,6 +89,7 @@ struct AppointmentRequestView: View {
         }
         .onChange(of: viewModel.status) { _, status in
             if case .success(let message) = status {
+                savePendingAppointment()
                 successMessage = message
                 showSuccess = true
             }
@@ -108,5 +110,20 @@ struct AppointmentRequestView: View {
         } message: {
             Text(viewModel.status.errorMessage ?? "")
         }
+    }
+
+    private func savePendingAppointment() {
+        let profile: UserProfile
+        if let existing = profiles.first {
+            profile = existing
+        } else {
+            profile = UserProfile()
+            modelContext.insert(profile)
+        }
+
+        let dateText = DateFormatter.appointmentDateFormatter.string(from: viewModel.preferredDate)
+        profile.pendingAppointmentSummary = "\(viewModel.appointmentType.rawValue) - \(dateText) - \(viewModel.preferredTime)"
+        profile.pendingAppointmentRequestedAt = Date()
+        try? modelContext.save()
     }
 }
